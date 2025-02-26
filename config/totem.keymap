@@ -95,7 +95,7 @@
                 &kp B  &kp F  &kp L                       &kp K        &kp Q    &kp P      &kp W        &kp O          &kp U      &kp PERIOD
                 &kp N  &kp S  &kp H                       &kp T        &kp M    &kp Y      &kp C        &kp A          &kp E      &kp I
 &kp LEFT_SHIFT  &kp X  &kp V  &kp J                       &kp D        &kp Z    &kp SQT    &kp G        &kp SEMICOLON  &kp SLASH  &kp COMMA   &kp RIGHT_SHIFT
-                              &lt 1 LS(LA(LC(LEFT_GUI)))  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
+                              &lt 1 LS(LC(LA(LEFT_GUI)))  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
             >;
         };
 
@@ -126,9 +126,9 @@
         layer_7 {
             label = "mods";
             bindings = <
-                &none         &none         &none           &meowKey          &kp ESC              &kp ESC    &none     &kp UP    &none      &none
-                &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LC(BACKSPACE)    &kp ENTER  &kp LEFT  &kp DOWN  &kp RIGHT  &none
-&studio_unlock  &none         &none         &none           &none             &kp TAB              &kp TAB    &none     &none     &none      &none  &trans
+                &none         &none         &none           &meowKey          &kp ESC              &kp ESC    &none     &kp UP    &kp BACKSPACE  &none
+                &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LC(BACKSPACE)    &kp ENTER  &kp LEFT  &kp DOWN  &kp RIGHT      &none
+&studio_unlock  &none         &none         &none           &none             &kp TAB              &kp TAB    &none     &none     &none          &none  &trans
                                             &trans          &trans            &trans               &none      &none     &trans
             >;
         };
