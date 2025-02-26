@@ -30,21 +30,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <12 23>;
-            bindings = <&kp ESC>;
-        };
-
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 5>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         gif: gif {
@@ -95,7 +81,7 @@
                 &kp B  &kp F  &kp L                       &kp K        &kp Q    &kp P      &kp W        &kp O          &kp U      &kp PERIOD
                 &kp N  &kp S  &kp H                       &kp T        &kp M    &kp Y      &kp C        &kp A          &kp E      &kp I
 &kp LEFT_SHIFT  &kp X  &kp V  &kp J                       &kp D        &kp Z    &kp SQT    &kp G        &kp SEMICOLON  &kp SLASH  &kp COMMA   &kp RIGHT_SHIFT
-                              &sk LS(LC(LA(LEFT_GUI)))  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
+                              &lt 1 LS(LA(LC(LEFT_GUI)))  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
             >;
         };
 
