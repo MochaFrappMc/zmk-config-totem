@@ -34,7 +34,7 @@
         compatible = "zmk,combos";
 
         homeMod {
-            bindings = <&to 1>;
+            bindings = <&sk LS(LA(LC(LEFT_GUI)))>;
             key-positions = <32 33>;
         };
 
@@ -90,10 +90,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp B  &kp F  &kp L                     &kp K        &kp Q    &kp P      &kp W        &kp O          &kp U      &kp PERIOD
-                &kp N  &kp S  &kp H                     &kp T        &kp M    &kp Y      &kp C        &kp A          &kp E      &kp I
-&kp LEFT_SHIFT  &kp X  &kp V  &kp J                     &kp D        &kp Z    &kp SQT    &kp G        &kp SEMICOLON  &kp SLASH  &kp COMMA   &kp RIGHT_SHIFT
-                              &kp LS(LC(LA(LEFT_GUI)))  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
+                &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W        &kp O          &kp U      &kp PERIOD
+                &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C        &kp A          &kp E      &kp I
+&kp LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G        &kp SEMICOLON  &kp SLASH  &kp COMMA   &kp RIGHT_SHIFT
+                              &sl 1  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
             >;
         };
 
