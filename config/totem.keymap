@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp B  &kp F  &kp L    &kp K             &kp Q    &kp P      &kp W             &kp O          &kp U      &kp PERIOD
-                &kp N  &kp S  &kp H    &kp T             &kp M    &kp Y      &kp C             &kp A          &kp E      &kp I
-&kp LEFT_SHIFT  &kp X  &kp Z  &kp J    &kp D             &kp B    &kp SQT    &kp G             &kp SEMICOLON  &kp SLASH  &kp COMMA   &kp RIGHT_SHIFT
-                              &kp DEL  &lt NAV C_REPEAT  &kp R    &kp SPACE  &lt SYM C_REPEAT  &kp BSPC
+                &kp B  &kp F  &kp L  &kp K             &kp Q    &kp P      &kp W             &kp O          &kp U      &kp PERIOD
+                &kp N  &kp S  &kp H  &kp T             &kp M    &kp Y      &kp C             &kp A          &kp E      &kp I
+&kp LEFT_SHIFT  &kp X  &kp Z  &kp J  &kp D             &kp B    &kp SQT    &kp G             &kp SEMICOLON  &kp SLASH  &kp COMMA   &kp RIGHT_SHIFT
+                              &mo 1  &lt NAV C_REPEAT  &kp R    &kp SPACE  &lt SYM C_REPEAT  &kp BSPC
             >;
         };
 
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                               &trans    &trans     &trans      &mo ADJ   &kp KP_N0  &trans
+        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL       &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
+        &kp LSHFT  &kp LEFT    &kp DOWN  &studio_unlock  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN       &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
+                               &trans    &trans          &trans      &mo ADJ   &kp KP_N0  &trans
             >;
         };
 
@@ -223,4 +223,3 @@
         };
     };
 };
-                              
