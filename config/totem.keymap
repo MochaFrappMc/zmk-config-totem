@@ -88,7 +88,7 @@
                 &kp B  &kp F  &kp L                         &kp K        &kp Q    &kp P      &kp W        &kp O          &kp U      &kp PERIOD
                 &kp N  &kp S  &kp H                         &kp T        &kp M    &kp Y      &kp C        &kp A          &kp E      &kp I
 &kp LEFT_SHIFT  &kp X  &kp V  &kp J                         &kp D        &kp B    &kp SQT    &kp G        &kp SEMICOLON  &kp SLASH  &kp COMMA   &kp RIGHT_SHIFT
-                              &sk LS(LC(LA(LEFT_GUI))))  &key_repeat  &kp R    &kp SPACE  &key_repeat  &kp BSPC
+                              &sk LS(LC(LA(LEFT_GUI)))  &key_repeat  &kp R    &kp SPACE  &key_repeat  &kp BSPC
             >;
         };
 
