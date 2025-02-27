@@ -93,7 +93,7 @@
                 &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W        &kp O          &kp U      &kp PERIOD
                 &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C        &kp A          &kp E      &kp I
 &kp LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G        &kp SEMICOLON  &kp SLASH  &kp COMMA   &kp RIGHT_SHIFT
-                              &sl 1  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
+                              &mo 1  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
             >;
         };
 
@@ -114,10 +114,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp N1        &kp N2        &kp N3          &kp N4            &kp NUMBER_5    &kp N6   &kp N7            &kp N8           &kp N9         &kp N0
-                &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp F11         &kp F12  &sk LEFT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk LEFT_GUI
-&studio_unlock  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5          &kp F6   &kp F7            &kp F8           &kp F9         &kp F10       &trans
-                                            &trans          &trans            &trans          &none    &none             &trans
+         &kp N1        &kp N2        &kp N3          &kp N4            &kp NUMBER_5    &kp N6   &kp N7            &kp N8           &kp N9         &kp N0
+         &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp F11         &kp F12  &sk LEFT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk LEFT_GUI
+&kp ESC  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5          &kp F6   &kp F7            &kp F8           &kp F9         &kp F10       &trans
+                                     &trans          &trans            &trans          &none    &none             &trans
             >;
         };
 
