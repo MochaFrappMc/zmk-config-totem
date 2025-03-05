@@ -40,11 +40,6 @@
             key-positions = <32 33>;
         };
 
-        controlCombo {
-            bindings = <&kp LEFT_CONTROL>;
-            key-positions = <33 34>;
-        };
-
         escapeCombo {
             bindings = <&kp ESCAPE>;
             key-positions = <21 10>;
@@ -52,7 +47,7 @@
 
         symbols {
             bindings = <&mo 3>;
-            key-positions = <36 35>;
+            key-positions = <33 36>;
         };
     };
 
