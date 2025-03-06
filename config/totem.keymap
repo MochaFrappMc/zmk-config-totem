@@ -32,6 +32,15 @@
 
 &sk { release-after-ms = <100>; };
 
+&mmv {
+    delay-ms = <0>;
+    trigger-period-ms = <0>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <4>;
+    y-input-code = <INPUT_REL_Y>;
+    x-input-code = <INPUT_REL_X>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
