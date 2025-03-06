@@ -10,22 +10,19 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
-
 #define BASE 0
 #define NAV  1
 #define SYM  2
 #define ADJ  3
 #define TVP1 4
 #define TVP2 5
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
 
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
@@ -137,10 +134,10 @@
         layer_7 {
             label = "mods";
             bindings = <
-                &none            &none         &none           &meowKey          &kp ESC              &kp ESC    &none       &kp UP      &kp BACKSPACE  &none
-                &kp LEFT_GUI     &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LC(BACKSPACE)    &kp ENTER  &kp LEFT    &kp DOWN    &kp RIGHT      &none
-&studio_unlock  &kp LS(LC(TAB))  &kp LC(TAB)   &kp K_PASTE     &kp K_COPY        &kp TAB              &kp TAB    &kp K_UNDO  &kp K_REDO  &kp LC(W)      &kp LC(LS(T))  &trans
-                                               &trans          &trans            &trans               &none      &none       &trans
+                &none            &none         &kp LC(T)       &meowKey          &kp ESC              &kp ESC    &kp LC(Z)  &kp LS(LC(T))  &kp BACKSPACE  &none
+                &kp LEFT_GUI     &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LC(BACKSPACE)    &kp ENTER  &kp LEFT   &kp UP         &kp RIGHT      &none
+&studio_unlock  &kp LS(LC(TAB))  &kp LC(TAB)   &kp LC(V)       &kp LC(C)         &kp TAB              &kp TAB    &kp LC(Y)  &kp DOWN       &kp LC(W)      &none  &trans
+                                               &trans          &trans            &trans               &none      &none      &trans
             >;
         };
 
