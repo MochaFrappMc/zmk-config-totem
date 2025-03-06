@@ -34,6 +34,8 @@
 
 &sk { release-after-ms = <100>; };
 
+&mmv { time-to-max-speed-ms = <400>; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -135,8 +137,8 @@
             label = "mods";
             bindings = <
                 &none            &none         &kp LC(T)       &meowKey          &kp ESC              &kp ESC    &kp LC(Z)  &kp LS(LC(T))  &kp BACKSPACE  &none
-                &kp LEFT_GUI     &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LC(BACKSPACE)    &kp ENTER  &kp LEFT   &kp UP         &kp RIGHT      &none
-&studio_unlock  &kp LS(LC(TAB))  &kp LC(TAB)   &kp LC(V)       &kp LC(C)         &kp TAB              &kp TAB    &kp LC(Y)  &kp DOWN       &kp LC(W)      &none  &trans
+                &kp LEFT_GUI     &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LC(BACKSPACE)    &kp ENTER  &kp LEFT   &kp UP         &kp RIGHT      &kp KP_ENTER
+&studio_unlock  &kp LS(LC(TAB))  &kp LC(TAB)   &kp LC(V)       &kp LC(C)         &kp TAB              &kp TAB    &kp LC(Y)  &kp DOWN       &kp LC(W)      &none         &trans
                                                &trans          &trans            &trans               &none      &none      &trans
             >;
         };
@@ -241,7 +243,7 @@
             bindings = <
                 &trans        &trans          &trans     &trans     &trans    &trans  &trans          &trans          &trans           &trans
                 &msc SCRL_UP  &msc SCRL_DOWN  &mkp RCLK  &mkp LCLK  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans
-&studio_unlock  &trans        &trans          &trans     &trans     &trans    &trans  &trans          &mmv MOVE_DOWN  &trans           &trans  &trans
+&studio_unlock  &trans        &trans          &trans     &trans     &trans    &trans  &trans          &mmv MOVE_DOWN  &none            &trans  &trans
                                               &trans     &tog 7     &trans    &trans  &tog 7          &trans
             >;
         };
