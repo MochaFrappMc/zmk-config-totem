@@ -44,11 +44,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <21 10>;
         };
-
-        symbols {
-            bindings = <&mo 3>;
-            key-positions = <33 36>;
-        };
     };
 
     macros {
@@ -97,10 +92,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W        &kp O          &kp U      &kp PERIOD
-                &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C        &kp A          &kp E      &kp I
-&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G        &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
-                              &mo 1  &key_repeat  &kp R    &kp SPACE  &key_repeat  &mo 2
+                &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W           &kp O          &kp U      &kp PERIOD
+                &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C           &kp A          &kp E      &kp I
+&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G           &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
+                              &mo 1  &key_repeat  &kp R    &kp SPACE  &lt 3 C_REPEAT  &mo 2
             >;
         };
 
