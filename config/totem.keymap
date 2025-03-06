@@ -32,10 +32,6 @@
 
 &sk { release-after-ms = <100>; };
 
-&mk_accel {
-    speed = <8>;  // Adjust sensitivity (higher = faster)
-};
-
 / {
     combos {
         compatible = "zmk,combos";
