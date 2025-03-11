@@ -102,10 +102,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W           &kp O          &kp U      &kp PERIOD
-                &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C           &kp A          &kp E      &kp I
-&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G           &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
-                              &mo 3  &key_repeat  &kp R    &kp SPACE  &lt 5 C_REPEAT  &mo 4
+                &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W  &kp O          &kp U      &kp PERIOD
+                &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C  &kp A          &kp E      &kp I
+&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G  &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
+                              &mo 5  &key_repeat  &kp R    &kp SPACE  &mo 3  &mo 4
             >;
         };
 
@@ -159,7 +159,7 @@
             bindings = <
         &kp LC(L)        &kp LC(F)     &kp LC(T)       &meowKey          &kp ESC              &kp ESC    &kp LC(Z)  &kp LS(LC(T))  &kp BACKSPACE  &none
         &kp LEFT_GUI     &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LC(BACKSPACE)    &kp ENTER  &kp LEFT   &kp UP         &kp RIGHT      &kp KP_ENTER
-&tog 2  &kp LS(LC(TAB))  &kp LC(TAB)   &kp LC(V)       &kp LC(C)         &kp TAB              &kp TAB    &kp LC(Y)  &kp DOWN       &kp LC(W)      &none         &tog 1
+&tog 2  &kp LS(LC(TAB))  &kp LC(TAB)   &kp LC(V)       &kp LC(C)         &kp TAB              &kp TAB    &kp LC(Y)  &kp DOWN       &kp LC(W)      &kp LC(X)     &tog 1
                                        &trans          &trans            &trans               &none      &none      &trans
             >;
         };
