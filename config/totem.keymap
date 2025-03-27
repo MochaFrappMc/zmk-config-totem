@@ -260,10 +260,10 @@
 
         layer_8 {
             bindings = <
-                  &kp B  &kp F  &kp L   &kp K   &kp Q     &kp P    &kp W   &kp O     &kp U     &kp DOT
-                  &kp N  &kp S  &kp H   &kp T   &kp M     &kp Y    &kp C   &kp A     &kp E     &kp I
-&kp LG(NUMBER_1)  &kp X  &kp V  &kp J   &kp D   &kp Z     &kp SQT  &kp G   &kp SEMI  &kp FSLH  &kp COMMA  &kp LG(NUMBER_2)
-                                &tog 0  &trans  &trans    &trans   &trans  &tog 0
+                  &kp LG(B)  &kp LG(F)  &kp LG(L)  &kp LG(K)  &kp LG(Q)    &kp LG(P)    &kp LG(W)  &kp LG(O)     &kp LG(U)     &kp LG(DOT)
+                  &kp LG(N)  &kp LG(S)  &kp LG(H)  &kp LG(T)  &kp LG(M)    &kp LG(Y)    &kp LG(C)  &kp LG(A)     &kp LG(E)     &kp LG(I)
+&kp LG(NUMBER_1)  &kp LG(X)  &kp LG(V)  &kp LG(J)  &kp LG(D)  &kp LG(Z)    &kp LG(SQT)  &kp LG(G)  &kp LG(SEMI)  &kp LG(FSLH)  &kp LG(COMMA)  &kp LG(NUMBER_2)
+                                        &tog 0     &trans     &trans       &trans       &trans     &tog 0
             >;
         };
     };
