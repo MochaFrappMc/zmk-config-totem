@@ -257,5 +257,14 @@
                                               &tog 7     &tog 7     &tog 7    &tog 7  &tog 7          &tog 7
             >;
         };
+
+        layer_8 {
+            bindings = <
+                  &kp B  &kp F  &kp L   &kp K   &kp Q     &kp P    &kp W   &kp O     &kp U     &kp DOT
+                  &kp N  &kp S  &kp H   &kp T   &kp M     &kp Y    &kp C   &kp A     &kp E     &kp I
+&kp LG(NUMBER_1)  &kp X  &kp V  &kp J   &kp D   &kp Z     &kp SQT  &kp G   &kp SEMI  &kp FSLH  &kp COMMA  &kp LG(NUMBER_2)
+                                &trans  &trans  &trans    &trans   &trans  &trans
+            >;
+        };
     };
 };
