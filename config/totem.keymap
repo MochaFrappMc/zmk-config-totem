@@ -64,6 +64,11 @@
             bindings = <&key_repeat>;
             key-positions = <28 17>;
         };
+
+        gui_layer {
+            bindings = <&sl 8>;
+            key-positions = <32 37>;
+        };
     };
 
     macros {
