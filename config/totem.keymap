@@ -271,5 +271,14 @@
                                         &tog 0     &trans     &trans       &trans       &trans     &tog 0
             >;
         };
+
+        StrawberryTurtle-AnothaOne {
+            bindings = <
+        &trans     &trans  &trans  &trans             &trans    &trans  &trans             &trans  &trans  &trans
+        &kp SPACE  &kp O   &kp N   &kp A              &trans    &trans  &kp A              &kp N   &kp O   &kp SPACE
+&trans  &trans     &trans  &kp H   &kp E              &trans    &trans  &kp E              &kp H   &trans  &trans     &trans
+                           &trans  &kp LC(BACKSPACE)  &kp T     &kp T   &kp LC(BACKSPACE)  &trans
+            >;
+        };
     };
 };
