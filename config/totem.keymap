@@ -69,6 +69,7 @@
             bindings = <&sl 8>;
             key-positions = <32 37>;
         };
+
         left-L {
             bindings = <&kp L>;
             key-positions = <1 2>;
@@ -240,13 +241,13 @@
         left-period {
             bindings = <&kp PERIOD>;
             key-positions = <13 2>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right-period {
             bindings = <&kp PERIOD>;
             key-positions = <7 16>;
-            layers = <9>;
+            layers = <0 1>;
         };
     };
 
