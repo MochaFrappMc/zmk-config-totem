@@ -70,181 +70,181 @@
             key-positions = <32 37>;
         };
 
-        left-L {
+        left_L {
             bindings = <&kp L>;
             key-positions = <1 2>;
             layers = <0 1>;
         };
 
-        right-L {
+        right_L {
             bindings = <&kp L>;
             key-positions = <7 8>;
             layers = <0 1>;
         };
 
-        left-r {
+        left_r {
             bindings = <&kp R>;
             key-positions = <11 12>;
             layers = <0 1>;
         };
 
-        right-r {
+        right_r {
             bindings = <&kp R>;
             key-positions = <18 17>;
             layers = <0 1>;
         };
 
-        left-m {
+        left_m {
             bindings = <&kp M>;
             key-positions = <34 1 2>;
             layers = <0 1>;
         };
 
-        right-m {
+        right_m {
             bindings = <&kp M>;
             key-positions = <35 7 8>;
             layers = <0 1>;
         };
 
-        left-u {
+        left_u {
             bindings = <&kp U>;
             key-positions = <34 3>;
             layers = <0 1>;
         };
 
-        right-u {
+        right_u {
             bindings = <&kp U>;
             key-positions = <35 6>;
             layers = <0 1>;
         };
 
-        left-w {
+        left_w {
             bindings = <&kp W>;
             key-positions = <34 12 11>;
             layers = <0 1>;
         };
 
-        right-w {
+        right_w {
             bindings = <&kp W>;
             key-positions = <18 35 17>;
             layers = <0 1>;
         };
 
-        left-i {
+        left_i {
             bindings = <&kp I>;
             key-positions = <34 13>;
             layers = <0 1>;
         };
 
-        right-i {
+        right_i {
             bindings = <&kp I>;
             key-positions = <35 16>;
             layers = <0 1>;
         };
 
-        left-y {
+        left_y {
             bindings = <&kp Y>;
             key-positions = <2 3>;
             layers = <0 1>;
         };
 
-        right-y {
+        right_y {
             bindings = <&kp Y>;
             key-positions = <6 7>;
             layers = <0 1>;
         };
 
-        left-f {
+        left_f {
             bindings = <&kp F>;
             key-positions = <12 13>;
             layers = <0 1>;
         };
 
-        right-f {
+        right_f {
             bindings = <&kp F>;
             key-positions = <17 16>;
             layers = <0 1>;
         };
 
-        left-j {
+        left_j {
             bindings = <&kp J>;
             key-positions = <34 2 3>;
             layers = <0 1>;
         };
 
-        right-j {
+        right_j {
             bindings = <&kp J>;
             key-positions = <35 6 7>;
             layers = <0 1>;
         };
 
-        left-v {
+        left_v {
             bindings = <&kp V>;
             key-positions = <34 13 12>;
             layers = <0 1>;
         };
 
-        right-v {
+        right_v {
             bindings = <&kp V>;
             key-positions = <35 16 17>;
             layers = <0 1>;
         };
 
-        left-x {
+        left_x {
             bindings = <&kp X>;
             key-positions = <1 2 3>;
             layers = <0 1>;
         };
 
-        right-x {
+        right_x {
             bindings = <&kp X>;
             key-positions = <7 6 8>;
             layers = <0 1>;
         };
 
-        left-q {
+        left_q {
             bindings = <&kp Q>;
             key-positions = <11 12 13>;
             layers = <0 1>;
         };
 
-        right-q {
+        right_q {
             bindings = <&kp Q>;
             key-positions = <18 16 17>;
             layers = <0 1>;
         };
 
-        left-z {
+        left_z {
             bindings = <&kp Z>;
             key-positions = <34 1 2 3>;
             layers = <0 1>;
         };
 
-        right-z {
+        right_z {
             bindings = <&kp Z>;
             key-positions = <35 6 7 8>;
             layers = <0 1>;
         };
 
-        left-comma {
+        left_comma {
             bindings = <&kp COMMA>;
             key-positions = <12 3>;
             layers = <0 1>;
         };
 
-        right-comma {
+        right_comma {
             bindings = <&kp COMMA>;
             key-positions = <6 17>;
             layers = <0 1>;
         };
 
-        left-period {
+        left_period {
             bindings = <&kp PERIOD>;
             key-positions = <13 2>;
             layers = <0 1>;
         };
 
-        right-period {
+        right_period {
             bindings = <&kp PERIOD>;
             key-positions = <7 16>;
             layers = <0 1>;
