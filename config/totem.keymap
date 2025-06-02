@@ -69,6 +69,185 @@
             bindings = <&sl 8>;
             key-positions = <32 37>;
         };
+        left-L {
+            bindings = <&kp L>;
+            key-positions = <1 2>;
+            layers = <9>;
+        };
+
+        right-L {
+            bindings = <&kp L>;
+            key-positions = <7 8>;
+            layers = <9>;
+        };
+
+        left-r {
+            bindings = <&kp R>;
+            key-positions = <11 12>;
+            layers = <9>;
+        };
+
+        right-r {
+            bindings = <&kp R>;
+            key-positions = <18 17>;
+            layers = <9>;
+        };
+
+        left-m {
+            bindings = <&kp M>;
+            key-positions = <34 1 2>;
+            layers = <9>;
+        };
+
+        right-m {
+            bindings = <&kp M>;
+            key-positions = <35 7 8>;
+            layers = <9>;
+        };
+
+        left-u {
+            bindings = <&kp U>;
+            key-positions = <34 3>;
+            layers = <9>;
+        };
+
+        right-u {
+            bindings = <&kp U>;
+            key-positions = <35 6>;
+            layers = <9>;
+        };
+
+        left-w {
+            bindings = <&kp W>;
+            key-positions = <34 12 11>;
+            layers = <9>;
+        };
+
+        right-w {
+            bindings = <&kp W>;
+            key-positions = <18 35 17>;
+            layers = <9>;
+        };
+
+        left-i {
+            bindings = <&kp I>;
+            key-positions = <34 13>;
+            layers = <9>;
+        };
+
+        right-i {
+            bindings = <&kp I>;
+            key-positions = <35 16>;
+            layers = <9>;
+        };
+
+        left-y {
+            bindings = <&kp Y>;
+            key-positions = <2 3>;
+            layers = <9>;
+        };
+
+        right-y {
+            bindings = <&kp Y>;
+            key-positions = <6 7>;
+            layers = <9>;
+        };
+
+        left-f {
+            bindings = <&kp F>;
+            key-positions = <12 13>;
+            layers = <9>;
+        };
+
+        right-f {
+            bindings = <&kp F>;
+            key-positions = <17 16>;
+            layers = <9>;
+        };
+
+        left-j {
+            bindings = <&kp J>;
+            key-positions = <34 2 3>;
+            layers = <9>;
+        };
+
+        right-j {
+            bindings = <&kp J>;
+            key-positions = <35 6 7>;
+            layers = <9>;
+        };
+
+        left-v {
+            bindings = <&kp V>;
+            key-positions = <34 13 12>;
+            layers = <9>;
+        };
+
+        right-v {
+            bindings = <&kp V>;
+            key-positions = <35 16 17>;
+            layers = <9>;
+        };
+
+        left-x {
+            bindings = <&kp X>;
+            key-positions = <1 2 3>;
+            layers = <9>;
+        };
+
+        right-x {
+            bindings = <&kp X>;
+            key-positions = <7 6 8>;
+            layers = <9>;
+        };
+
+        left-q {
+            bindings = <&kp Q>;
+            key-positions = <11 12 13>;
+            layers = <9>;
+        };
+
+        right-q {
+            bindings = <&kp Q>;
+            key-positions = <18 16 17>;
+            layers = <9>;
+        };
+
+        left-z {
+            bindings = <&kp Z>;
+            key-positions = <34 1 2 3>;
+            layers = <9>;
+        };
+
+        right-z {
+            bindings = <&kp Z>;
+            key-positions = <35 6 7 8>;
+            layers = <9>;
+        };
+
+        left-comma {
+            bindings = <&kp COMMA>;
+            key-positions = <12 3>;
+            layers = <9>;
+        };
+
+        right-comma {
+            bindings = <&kp COMMA>;
+            key-positions = <6 17>;
+            layers = <9>;
+        };
+
+        left-period {
+            bindings = <&kp PERIOD>;
+            key-positions = <13 2>;
+            layers = <9>;
+        };
+
+        right-period {
+            bindings = <&kp PERIOD>;
+            key-positions = <7 16>;
+            layers = <9>;
+        };
     };
 
     macros {
