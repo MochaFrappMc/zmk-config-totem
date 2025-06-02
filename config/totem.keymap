@@ -79,175 +79,175 @@
         right_L {
             bindings = <&kp L>;
             key-positions = <7 8>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_r {
             bindings = <&kp R>;
             key-positions = <11 12>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_r {
             bindings = <&kp R>;
             key-positions = <18 17>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_m {
             bindings = <&kp M>;
             key-positions = <34 1 2>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_m {
             bindings = <&kp M>;
             key-positions = <35 7 8>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_u {
             bindings = <&kp U>;
             key-positions = <34 3>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_u {
             bindings = <&kp U>;
             key-positions = <35 6>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_w {
             bindings = <&kp W>;
             key-positions = <34 12 11>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_w {
             bindings = <&kp W>;
             key-positions = <18 35 17>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_i {
             bindings = <&kp I>;
             key-positions = <34 13>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_i {
             bindings = <&kp I>;
             key-positions = <35 16>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_y {
             bindings = <&kp Y>;
             key-positions = <2 3>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_y {
             bindings = <&kp Y>;
             key-positions = <6 7>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_f {
             bindings = <&kp F>;
             key-positions = <12 13>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_f {
             bindings = <&kp F>;
             key-positions = <17 16>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_j {
             bindings = <&kp J>;
             key-positions = <34 2 3>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_j {
             bindings = <&kp J>;
             key-positions = <35 6 7>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_v {
             bindings = <&kp V>;
             key-positions = <34 13 12>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_v {
             bindings = <&kp V>;
             key-positions = <35 16 17>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_x {
             bindings = <&kp X>;
             key-positions = <1 2 3>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_x {
             bindings = <&kp X>;
             key-positions = <7 6 8>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_q {
             bindings = <&kp Q>;
             key-positions = <11 12 13>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_q {
             bindings = <&kp Q>;
             key-positions = <18 16 17>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_z {
             bindings = <&kp Z>;
             key-positions = <34 1 2 3>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_z {
             bindings = <&kp Z>;
             key-positions = <35 6 7 8>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_comma {
             bindings = <&kp COMMA>;
             key-positions = <12 3>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_comma {
             bindings = <&kp COMMA>;
             key-positions = <6 17>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         left_period {
             bindings = <&kp PERIOD>;
             key-positions = <13 2>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_period {
             bindings = <&kp PERIOD>;
             key-positions = <7 16>;
-            layers = <0 1>;
+            layers = <9>;
         };
     };
 
