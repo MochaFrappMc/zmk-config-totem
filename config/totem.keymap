@@ -73,7 +73,7 @@
         left_L {
             bindings = <&kp L>;
             key-positions = <1 2>;
-            layers = <0 1>;
+            layers = <9>;
         };
 
         right_L {
