@@ -249,6 +249,11 @@
             key-positions = <7 16>;
             layers = <9>;
         };
+
+        toggle_9 {
+            bindings = <&tog 9>;
+            key-positions = <33 36 16 13>;
+        };
     };
 
     macros {
