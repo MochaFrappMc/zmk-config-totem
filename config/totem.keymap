@@ -254,6 +254,54 @@
             bindings = <&tog 9>;
             key-positions = <33 36 16 13>;
         };
+
+        left_g {
+            bindings = <&kp G>;
+            key-positions = <13 11>;
+            layers = <9>;
+        };
+
+        right_g {
+            bindings = <&kp G>;
+            key-positions = <16 18>;
+            layers = <9>;
+        };
+
+        left_b {
+            bindings = <&kp B>;
+            key-positions = <1 3>;
+            layers = <9>;
+        };
+
+        right_b {
+            bindings = <&kp B>;
+            key-positions = <8 6>;
+            layers = <9>;
+        };
+
+        left_d {
+            bindings = <&kp D>;
+            key-positions = <34 2>;
+            layers = <9>;
+        };
+
+        right_d {
+            bindings = <&kp D>;
+            key-positions = <7 35>;
+            layers = <9>;
+        };
+
+        left_k {
+            bindings = <&kp K>;
+            key-positions = <34 11 13>;
+            layers = <9>;
+        };
+
+        right_k {
+            bindings = <&kp K>;
+            key-positions = <35 16 18>;
+            layers = <9>;
+        };
     };
 
     macros {
