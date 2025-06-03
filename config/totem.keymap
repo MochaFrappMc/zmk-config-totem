@@ -302,6 +302,42 @@
             key-positions = <35 16 18>;
             layers = <9>;
         };
+
+        left_p {
+            bindings = <&kp P>;
+            key-positions = <34 3 1>;
+            layers = <9>;
+        };
+
+        right_p {
+            bindings = <&kp P>;
+            key-positions = <35 6 8>;
+            layers = <9>;
+        };
+
+        left_c {
+            bindings = <&kp C>;
+            key-positions = <34 12>;
+            layers = <9>;
+        };
+
+        right_c {
+            bindings = <&kp C>;
+            key-positions = <35 17>;
+            layers = <9>;
+        };
+
+        left_s {
+            bindings = <&kp S>;
+            key-positions = <34 11>;
+            layers = <9>;
+        };
+
+        right_s {
+            bindings = <&kp S>;
+            key-positions = <35 18>;
+            layers = <9>;
+        };
     };
 
     macros {
