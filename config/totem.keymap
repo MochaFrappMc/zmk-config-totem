@@ -339,6 +339,12 @@
             key-positions = <36 8>;
             layers = <10 0>;
         };
+
+        combo_magic_ue_2 {
+            bindings = <&combo_magic_ue>;
+            key-positions = <8 33>;
+            layers = <10 0>;
+        };
     };
 
     macros {
