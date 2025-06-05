@@ -51,12 +51,12 @@
         };
 
         mouse {
-            bindings = <&tog 7>;
+            bindings = <&tog 8>;
             key-positions = <33 36>;
         };
 
         NavLayerCombo {
-            bindings = <&mo 2>;
+            bindings = <&mo 3>;
             key-positions = <34 33>;
         };
 
@@ -66,277 +66,277 @@
         };
 
         gui_layer {
-            bindings = <&sl 8>;
+            bindings = <&sl 9>;
             key-positions = <32 37>;
         };
 
         left_L {
             bindings = <&kp L>;
             key-positions = <1 2>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_L {
             bindings = <&kp L>;
             key-positions = <7 8>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_r {
             bindings = <&kp R>;
             key-positions = <11 12>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_r {
             bindings = <&kp R>;
             key-positions = <18 17>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_m {
             bindings = <&kp M>;
             key-positions = <34 1 2>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_m {
             bindings = <&kp M>;
             key-positions = <35 7 8>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_u {
             bindings = <&kp U>;
             key-positions = <34 3>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_u {
             bindings = <&kp U>;
             key-positions = <35 6>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_w {
             bindings = <&kp W>;
             key-positions = <34 12 11>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_w {
             bindings = <&kp W>;
             key-positions = <18 35 17>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_i {
             bindings = <&kp I>;
             key-positions = <34 13>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_i {
             bindings = <&kp I>;
             key-positions = <35 16>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_y {
             bindings = <&kp Y>;
             key-positions = <2 3>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_y {
             bindings = <&kp Y>;
             key-positions = <6 7>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_f {
             bindings = <&kp F>;
             key-positions = <12 13>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_f {
             bindings = <&kp F>;
             key-positions = <17 16>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_j {
             bindings = <&kp J>;
             key-positions = <34 2 3>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_j {
             bindings = <&kp J>;
             key-positions = <35 6 7>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_v {
             bindings = <&kp V>;
             key-positions = <34 13 12>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_v {
             bindings = <&kp V>;
             key-positions = <35 16 17>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_x {
             bindings = <&kp X>;
             key-positions = <1 2 3>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_x {
             bindings = <&kp X>;
             key-positions = <7 6 8>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_q {
             bindings = <&kp Q>;
             key-positions = <11 12 13>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_q {
             bindings = <&kp Q>;
             key-positions = <18 16 17>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_z {
             bindings = <&kp Z>;
             key-positions = <34 1 2 3>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_z {
             bindings = <&kp Z>;
             key-positions = <35 6 7 8>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_comma {
             bindings = <&kp COMMA>;
             key-positions = <12 3>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_comma {
             bindings = <&kp COMMA>;
             key-positions = <6 17>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_period {
             bindings = <&kp PERIOD>;
             key-positions = <13 2>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_period {
             bindings = <&kp PERIOD>;
             key-positions = <7 16>;
-            layers = <9>;
+            layers = <1>;
         };
 
         toggle_9 {
-            bindings = <&tog 9>;
+            bindings = <&tog 1>;
             key-positions = <33 36 16 13>;
         };
 
         left_g {
             bindings = <&kp G>;
             key-positions = <13 11>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_g {
             bindings = <&kp G>;
             key-positions = <16 18>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_b {
             bindings = <&kp B>;
             key-positions = <1 3>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_b {
             bindings = <&kp B>;
             key-positions = <8 6>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_d {
             bindings = <&kp D>;
             key-positions = <34 2>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_d {
             bindings = <&kp D>;
             key-positions = <7 35>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_k {
             bindings = <&kp K>;
             key-positions = <34 11 13>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_k {
             bindings = <&kp K>;
             key-positions = <35 16 18>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_p {
             bindings = <&kp P>;
             key-positions = <34 3 1>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_p {
             bindings = <&kp P>;
             key-positions = <35 6 8>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_c {
             bindings = <&kp C>;
             key-positions = <34 12>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_c {
             bindings = <&kp C>;
             key-positions = <35 17>;
-            layers = <9>;
+            layers = <1>;
         };
 
         left_s {
             bindings = <&kp S>;
             key-positions = <34 11>;
-            layers = <9>;
+            layers = <1>;
         };
 
         right_s {
             bindings = <&kp S>;
             key-positions = <35 18>;
-            layers = <9>;
+            layers = <1>;
         };
     };
 
@@ -389,7 +389,16 @@
                 &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W  &kp O          &kp U      &kp PERIOD
                 &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C  &kp A          &kp E      &kp I
 &sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G  &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
-                              &mo 1  &key_repeat  &kp R    &kp SPACE  &mo 2  &mo 3
+                              &mo 2  &key_repeat  &kp R    &kp SPACE  &mo 3  &mo 4
+            >;
+        };
+
+        StrawberryTurtle-AnothaOne {
+            bindings = <
+       &none      &kp O  &kp N  &kp A          &none    &none  &kp A          &kp N  &kp O  &none
+       &kp SPACE  &kp O  &kp H  &kp E          &none    &none  &kp E          &kp H  &kp O  &kp SPACE
+&none  &none      &none  &none  &none          &none    &none  &none          &none  &none  &none      &none
+                         &none  &kp BACKSPACE  &kp T    &kp T  &kp BACKSPACE  &none
             >;
         };
 
@@ -493,7 +502,7 @@
 
             bindings = <
        &kp TAB    &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
-       &lt 6 L    &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
+       &lt 7 L    &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
 &kp J  &kp LSHFT  &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
                              &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
             >;
@@ -528,7 +537,7 @@
                 &none         &none           &none      &none      &none     &none   &none           &none           &none            &none
                 &msc SCRL_UP  &msc SCRL_DOWN  &mkp RCLK  &mkp LCLK  &none     &none   &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
 &studio_unlock  &none         &none           &none      &none      &none     &none   &none           &mmv MOVE_DOWN  &none            &none  &none
-                                              &tog 7     &tog 7     &tog 7    &tog 7  &tog 7          &tog 7
+                                              &tog 8     &tog 8     &tog 8    &tog 8  &tog 8          &tog 8
             >;
         };
 
@@ -538,15 +547,6 @@
                   &kp LG(N)  &kp LG(S)  &kp LG(H)  &kp LG(T)  &kp LG(M)    &kp LG(Y)    &kp LG(C)  &kp LG(A)     &kp LG(E)     &kp LG(I)
 &kp LG(NUMBER_1)  &kp LG(X)  &kp LG(V)  &kp LG(J)  &kp LG(D)  &kp LG(Z)    &kp LG(SQT)  &kp LG(G)  &kp LG(SEMI)  &kp LG(FSLH)  &kp LG(COMMA)  &kp LG(NUMBER_2)
                                         &tog 0     &trans     &trans       &trans       &trans     &tog 0
-            >;
-        };
-
-        StrawberryTurtle-AnothaOne {
-            bindings = <
-       &none      &kp O  &kp N  &kp A          &none    &none  &kp A          &kp N  &kp O  &none
-       &kp SPACE  &kp O  &kp H  &kp E          &none    &none  &kp E          &kp H  &kp O  &kp SPACE
-&none  &none      &none  &none  &none          &none    &none  &none          &none  &none  &none      &none
-                         &none  &kp BACKSPACE  &kp T    &kp T  &kp BACKSPACE  &none
             >;
         };
     };
