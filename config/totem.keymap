@@ -347,7 +347,7 @@
         };
 
         combo_magic_rr {
-            bindings = <&combo_magic_ue>;
+            bindings = <&kp R>;
             key-positions = <36 34>;
             layers = <10 0>;
         };
