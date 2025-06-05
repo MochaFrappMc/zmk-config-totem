@@ -333,6 +333,12 @@
             key-positions = <35 18>;
             layers = <1>;
         };
+
+        magic_combo_one {
+            bindings = <&combo_magic_ue>;
+            key-positions = <36 8>;
+            layers = <10 0>;
+        };
     };
 
     macros {
@@ -341,6 +347,13 @@
             #binding-cells = <0>;
             bindings = <&kp M &kp E &kp O &kp W>;
             label = "MEOWKEY";
+        };
+
+        combo_magic_ue: combo_magic_ue {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp E>;
+            label = "COMBO_MAGIC_UE";
         };
     };
 
@@ -527,6 +540,16 @@
                   &kp LG(N)  &kp LG(S)  &kp LG(H)  &kp LG(T)  &kp LG(M)    &kp LG(Y)    &kp LG(C)  &kp LG(A)     &kp LG(E)     &kp LG(I)
 &kp LG(NUMBER_1)  &kp LG(X)  &kp LG(V)  &kp LG(J)  &kp LG(D)  &kp LG(Z)    &kp LG(SQT)  &kp LG(G)  &kp LG(SEMI)  &kp LG(FSLH)  &kp LG(COMMA)  &kp LG(NUMBER_2)
                                         &tog 0     &trans     &trans       &trans       &trans     &tog 0
+            >;
+        };
+
+        layer_10 {
+            label = "comboMagic";
+            bindings = <
+                &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W  &kp O          &kp U      &kp PERIOD
+                &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C  &kp A          &kp E      &kp I
+&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G  &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
+                              &mo 2  &key_repeat  &kp R    &kp SPACE  &mo 3  &mo 4
             >;
         };
     };
