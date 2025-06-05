@@ -431,10 +431,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp EXCL   &kp AT           &kp HASH               &kp DLLR           &kp PRCNT     &kp CARET  &kp AMPS      &kp ASTERISK      &kp UNDER          &kp PIPE
-       &kp GRAVE  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp COMMA     &kp PLUS   &kp MINUS     &kp LESS_THAN     &kp EQUAL          &kp COLON
-&none  &kp TILDE  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp PERIOD    &none      &kp QUESTION  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp BSLH   &none
-                                   &trans                 &trans             &trans        &trans     &trans        &trans
+        &kp EXCL   &kp AT           &kp HASH               &kp DLLR           &kp PRCNT     &kp CARET  &kp AMPS      &kp ASTERISK      &kp UNDER          &kp PIPE
+        &kp GRAVE  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp COMMA     &kp PLUS   &kp MINUS     &kp LESS_THAN     &kp EQUAL          &kp COLON
+&tog 1  &kp TILDE  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp PERIOD    &none      &kp QUESTION  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp BSLH   &none
+                                    &trans                 &trans             &trans        &trans     &trans        &trans
             >;
         };
 
@@ -457,7 +457,7 @@
             bindings = <
          &kp N1        &kp N2        &kp N3          &kp N4            &kp NUMBER_5    &kp N6   &kp N7            &kp N8           &kp N9         &kp N0
          &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp F11         &kp F12  &sk LEFT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk LEFT_GUI
-&kp ESC  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5          &kp F6   &kp F7            &kp F8           &kp F9         &kp F10       &trans
+&kp ESC  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5          &kp F6   &kp F7            &kp F8           &kp F9         &kp F10       &tog 1
                                      &trans          &trans            &trans          &none    &none             &trans
             >;
         };
