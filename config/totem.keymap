@@ -55,7 +55,7 @@
             key-positions = <33 36>;
         };
 
-        NavLayerCombo {
+        navLayerCombo {
             bindings = <&mo 3>;
             key-positions = <34 33>;
         };
