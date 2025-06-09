@@ -39,7 +39,8 @@
 / {
     combos {
         compatible = "zmk,combos";
-
+        combo-term-ms = <5>;
+  
         homeMod {
             bindings = <&sk LS(LA(LC(LEFT_GUI)))>;
             key-positions = <32 33>;
