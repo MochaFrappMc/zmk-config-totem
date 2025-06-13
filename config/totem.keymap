@@ -354,7 +354,7 @@
         };
 
         combo_magic_ay {
-            bindings = <&combo_magic_ue>;
+            bindings = <&combo_magic_ay_macro>;
             key-positions = <23 17>;
             layers = <10 0>;
         };
