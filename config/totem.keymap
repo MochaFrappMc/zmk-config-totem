@@ -357,7 +357,7 @@
             bindings = <&combo_magic_ay_macro>;
             key-positions = <23 17>;
             layers = <10 0>;
-            timeout-ms = <10>;        
+            timeout-ms = <20>;        
 };
     };
 
