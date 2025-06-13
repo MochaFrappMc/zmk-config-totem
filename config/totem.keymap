@@ -40,7 +40,7 @@
     combos {
         compatible = "zmk,combos";
         combo-term-ms = <1>;
-  
+
         homeMod {
             bindings = <&sk LS(LA(LC(LEFT_GUI)))>;
             key-positions = <32 33>;
@@ -352,6 +352,12 @@
             key-positions = <36 34>;
             layers = <10 0>;
         };
+
+        combo_magic_ay {
+            bindings = <&combo_magic_ue>;
+            key-positions = <23 17>;
+            layers = <10 0>;
+        };
     };
 
     macros {
@@ -374,6 +380,13 @@
             #binding-cells = <0>;
             bindings = <&kp R &kp R>;
             label = "COMBO_MAGIC_RR";
+        };
+
+        combo_magic_ay_macro: combo_magic_ay_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp Y>;
+            label = "COMBO_MAGIC_AY_MACRO";
         };
     };
 
