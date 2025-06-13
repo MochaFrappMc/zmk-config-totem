@@ -339,25 +339,28 @@
             bindings = <&combo_magic_ue>;
             key-positions = <36 8>;
             layers = <10 0>;
+            timeout-ms = <40>; 
         };
 
         combo_magic_ue_2 {
             bindings = <&combo_magic_ue>;
             key-positions = <8 33>;
             layers = <10 0>;
+            timeout-ms = <40>; 
         };
 
         combo_magic_rr {
             bindings = <&combo_magic_rr>;
             key-positions = <36 34>;
             layers = <10 0>;
+            timeout-ms = <40>; 
         };
 
         combo_magic_ay {
             bindings = <&combo_magic_ay_macro>;
             key-positions = <23 17>;
             layers = <10 0>;
-            timeout-ms = <20>;        
+            timeout-ms = <40>;        
 };
     };
 
