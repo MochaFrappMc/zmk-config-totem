@@ -406,14 +406,14 @@
         };
 
         shift_repeat: shift_repeat {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SHIFT_REPEAT";
-            bindings = <&kp>, <&key_repeat>;
+    compatible = "zmk,behavior-hold-tap";
+    label = "SHIFT_REPEAT";
+    bindings = <&key_repeat>, <&kp LSHFT>;
+    #binding-cells = <0>;
+    tapping-term-ms = <200>;
+    flavor = "tap-preferred";
+};
 
-            #binding-cells = <2>;
-            tapping-term-ms = <10>;
-            flavor = "tap-preferred";
-        };
     };
 
     keymap {
@@ -441,7 +441,7 @@
                 &kp B  &kp F  &kp L  &kp K                       &kp Q    &kp P      &kp W              &kp O          &kp U      &kp PERIOD
                 &kp N  &kp S  &kp H  &kp T                       &kp M    &kp Y      &kp C              &kp A          &kp E      &kp I
 &sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D                       &kp Z    &kp SQT    &kp G              &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
-                              &mo 2  &shift_repeat LEFT_SHIFT 0  &kp R    &kp SPACE  &layer_repeat 3 0  &mo 4
+                              &mo 2  &shift_repeat  &kp R    &kp SPACE  &layer_repeat 3 0  &mo 4
             >;
         };
 
