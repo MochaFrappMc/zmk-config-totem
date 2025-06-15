@@ -400,7 +400,7 @@
             label = "REPEAT_MAYBE";
         };
     };
-
+ behaviors {
    repeat_layer3_ht {
   compatible = "zmk,behavior-hold-tap";
   #binding-cells = <0>;
@@ -408,7 +408,7 @@
   tapping-term-ms = <200>;
   bindings = < &key_repeat &mo 3 >;
 };
-
+};
     keymap {
         compatible = "zmk,keymap";
 
