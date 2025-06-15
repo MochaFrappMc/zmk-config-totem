@@ -410,6 +410,7 @@
     tapping-term-ms = <10>;
     flavor = "tap-preferred";
 };
+};
 
     };
 
