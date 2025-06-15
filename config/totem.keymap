@@ -406,13 +406,14 @@
         };
 
         shift_repeat: shift_repeat {
-    compatible = "zmk,behavior-hold-tap";
-    label = "SHIFT_REPEAT";
-    bindings = <&key_repeat>, <&kp LSHFT>;
-    #binding-cells = <0>;
-    tapping-term-ms = <200>;
-    flavor = "tap-preferred";
-};
+            compatible = "zmk,behavior-hold-tap";
+            label = "SHIFT_REPEAT";
+            bindings = <&kp>, <&key_repeat>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <10>;
+            flavor = "tap-preferred";
+        };
 
     };
 
