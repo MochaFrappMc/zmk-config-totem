@@ -392,6 +392,25 @@
             bindings = <&kp A &kp Y>;
             label = "COMBO_MAGIC_AY_MACRO";
         };
+
+        repeat_maybe: repeat_maybe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&key_repeat>;
+            label = "REPEAT_MAYBE";
+        };
+    };
+
+    behaviors {
+        layer_repeat: layer_repeat {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_REPEAT";
+            bindings = <&mo>, <&repeat_maybe>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <10>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
