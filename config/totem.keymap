@@ -339,29 +339,29 @@
             bindings = <&combo_magic_ue>;
             key-positions = <36 8>;
             layers = <10 0>;
-            timeout-ms = <40>; 
+            timeout-ms = <40>;
         };
 
         combo_magic_ue_2 {
             bindings = <&combo_magic_ue>;
             key-positions = <8 33>;
             layers = <10 0>;
-            timeout-ms = <40>; 
+            timeout-ms = <40>;
         };
 
         combo_magic_rr {
             bindings = <&combo_magic_rr>;
             key-positions = <36 34>;
             layers = <10 0>;
-            timeout-ms = <40>; 
+            timeout-ms = <40>;
         };
 
         combo_magic_ay {
             bindings = <&combo_magic_ay_macro>;
             key-positions = <23 17>;
             layers = <10 0>;
-            timeout-ms = <40>;        
-};
+            timeout-ms = <40>;
+        };
     };
 
     macros {
@@ -394,6 +394,28 @@
         };
     };
 
+    behaviors {
+        layer_repeat: layer_repeat {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_REPEAT";
+            bindings = <&mo>, <&key_repeat>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <10>;
+            flavor = "tap-preferred";
+        };
+
+        shift_repeat: shift_repeat {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SHIFT_REPEAT";
+            bindings = <&kp>, <&key_repeat>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <10>;
+            flavor = "tap-preferred";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -416,10 +438,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W  &kp O          &kp U      &kp PERIOD
-                &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C  &kp A          &kp E      &kp I
-&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G  &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
-                              &mo 2  &key_repeat  &kp R    &kp SPACE  &mo 3  &mo 4
+                &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W              &kp O          &kp U      &kp PERIOD
+                &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C              &kp A          &kp E      &kp I
+&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G              &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
+                              &mo 2  &key_repeat  &kp R    &kp SPACE  &layer_repeat 3 0  &mo 4
             >;
         };
 
