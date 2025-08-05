@@ -79,13 +79,19 @@
         };
 
         ds_combo {
-            bindings = <&macro_ng>;
+            bindings = <&macro_ds>;
             key-positions = <1 11>;
             layers = <1>;
         };
 
         rl_combo {
-            bindings = <&macro_ng>;
+            bindings = <&macro_rl>;
+            key-positions = <13 3>;
+            layers = <1>;
+        };
+
+        ct_combo {
+            bindings = <&macro_ct>;
             key-positions = <13 3>;
             layers = <1>;
         };
@@ -113,7 +119,7 @@
             label = "COMBO_MAGIC_RR";
         };
 
-        macro_tc: combo_magic_ay_macro {
+        macro_ct: combo_magic_ay_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp C &kp T>;
@@ -127,18 +133,25 @@
             label = "REPEAT_MAYBE";
         };
 
-        ds_combo: ds_combo {
+        macro_ds: ds_combo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp S>;
             label = "DS_COMBO";
         };
 
-        rl_combo: rl_combo {
+        macro_rl: rl_combo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp L>;
             label = "RL_COMBO";
+        };
+
+        macro_nk: kn_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp K>;
+            label = "KN_COMBO";
         };
     };
 
