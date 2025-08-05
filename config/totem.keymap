@@ -223,10 +223,10 @@
 
         StrawberryTurtle-AnothaOne {
             bindings = <
-                &kp M  &kp B  &kp P  &kp L        &none        &kp F  &kp K  &kp J        &kp Q  &kp Y
-                &kp W  &kp S  &kp T  &kp R        &kp X        &kp V  &kp N  &kp A        &kp E  &kp I
-&kp LEFT_SHIFT  &none  &kp D  &kp C  &kp H        &none        &none  &kp G  &key_repeat  &kp Z  &mo 4  &kp LEFT_SHIFT
-                              &mo 3  &key_repeat  &kp SPACE    &kp O  &kp U  &mo 5
+                &kp M  &kp B  &kp P  &kp L        &none        &kp F    &kp K  &kp J        &kp Q  &kp Y
+                &kp W  &kp S  &kp T  &kp R        &kp X        &kp V    &kp N  &kp A        &kp E  &kp I
+&kp LEFT_SHIFT  &none  &kp D  &kp C  &kp H        &none        &none    &kp G  &key_repeat  &kp Z  &mo 4  &kp LEFT_SHIFT
+                              &mo 3  &key_repeat  &kp SPACE    &lt 2 O  &kp U  &mo 5
             >;
         };
 
