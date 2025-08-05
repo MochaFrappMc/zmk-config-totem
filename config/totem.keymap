@@ -52,17 +52,17 @@
         };
 
         mouse {
-            bindings = <&tog 8>;
+            bindings = <&tog 9>;
             key-positions = <33 36>;
         };
 
         navLayerCombo {
-            bindings = <&mo 3>;
+            bindings = <&mo 4>;
             key-positions = <34 33>;
         };
 
         gui_layer {
-            bindings = <&sl 9>;
+            bindings = <&sl 10>;
             key-positions = <32 37>;
         };
 
@@ -94,6 +94,17 @@
             bindings = <&macro_ct>;
             key-positions = <13 3>;
             layers = <1>;
+        };
+
+        hr-combo {
+            bindings = <&macro_ct>;
+            key-positions = <13 24>;
+            layers = <1>;
+        };
+
+        er_combo {
+            bindings = <&macro_er>;
+            key-positions = <29 18>;
         };
     };
 
@@ -153,6 +164,20 @@
             bindings = <&kp N &kp K>;
             label = "KN_COMBO";
         };
+
+        macro_hr: macro_hr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp R>;
+            label = "MACRO_HR";
+        };
+
+        macro_er: macro_er {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp R>;
+            label = "MACRO_ER";
+        };
     };
 
     behaviors {
@@ -191,8 +216,8 @@
             bindings = <
                 &kp B  &kp F  &kp L  &kp K        &kp Q        &kp P    &kp W        &kp O       &kp U      &kp SEMICOLON
                 &kp N  &kp S  &kp H  &kp T        &kp M        &kp Y    &kp C        &kp A       &kp I      &kp E
-&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z        &kp SQT  &kp G        &kp PERIOD  &kp COMMA  &lt 3 SLASH    &sk RIGHT_SHIFT
-                              &mo 2  &key_repeat  &kp SPACE    &kp R    &key_repeat  &mo 4
+&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z        &kp SQT  &kp G        &kp PERIOD  &kp COMMA  &lt 4 SLASH    &sk RIGHT_SHIFT
+                              &mo 3  &key_repeat  &kp SPACE    &kp R    &key_repeat  &mo 5
             >;
         };
 
@@ -200,8 +225,17 @@
             bindings = <
                 &kp M  &kp B  &kp P  &kp L        &none        &kp F  &kp K  &kp J        &kp Q  &kp Y
                 &kp W  &kp S  &kp T  &kp R        &kp X        &kp V  &kp N  &kp A        &kp E  &kp I
-&kp LEFT_SHIFT  &none  &kp D  &kp C  &kp H        &none        &none  &kp G  &key_repeat  &kp Z  &mo 3  &kp LEFT_SHIFT
-                              &mo 2  &key_repeat  &kp SPACE    &kp O  &kp U  &mo 4
+&kp LEFT_SHIFT  &none  &kp D  &kp C  &kp H        &none        &none  &kp G  &key_repeat  &kp Z  &mo 4  &kp LEFT_SHIFT
+                              &mo 3  &key_repeat  &kp SPACE    &kp O  &kp U  &mo 5
+            >;
+        };
+
+        layer_11 {
+            bindings = <
+        &trans  &trans                &trans                 &trans               &trans    &kp DOUBLE_QUOTES  &kp PERIOD                    &kp COMMA                 &kp KP_NUMBER_0        &kp KP_NUMBER_9
+        &trans  &mt LCTRL UNDER       &mt LEFT_ALT ASTERISK  &mt LEFT_SHIFT PLUS  &trans    &kp SINGLE_QUOTE   &mt LS(NUMBER_4) KP_NUMBER_4  &mt LEFT_GUI KP_NUMBER_3  &mt LCTRL KP_NUMBER_2  &mt LEFT_GUI KP_NUMBER_1
+&trans  &trans  &kp NON_US_BACKSLASH  &kp SLASH              &kp MINUS            &trans    &kp KP_NUMBER_8    &kp KP_NUMBER_7               &kp KP_NUMBER_6           &kp KP_NUMBER_5        &trans                    &trans
+                                      &trans                 &trans               &trans    &trans             &trans                        &trans
             >;
         };
 
@@ -305,7 +339,7 @@
 
             bindings = <
        &kp TAB    &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
-       &lt 7 L    &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
+       &lt 8 L    &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
 &kp J  &kp LSHFT  &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
                              &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
             >;
@@ -340,7 +374,7 @@
                 &none         &none           &none      &none      &none     &none   &none           &none           &none            &none
                 &msc SCRL_UP  &msc SCRL_DOWN  &mkp RCLK  &mkp LCLK  &none     &none   &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
 &studio_unlock  &none         &none           &none      &none      &none     &none   &none           &mmv MOVE_DOWN  &none            &none  &none
-                                              &tog 8     &tog 8     &tog 8    &tog 8  &tog 8          &tog 8
+                                              &tog 9     &tog 9     &tog 9    &tog 9  &tog 9          &tog 9
             >;
         };
 
@@ -359,7 +393,7 @@
                 &kp B  &kp F  &kp L  &kp K        &kp Q    &kp P      &kp W  &kp O          &kp U      &kp PERIOD
                 &kp N  &kp S  &kp H  &kp T        &kp M    &kp Y      &kp C  &kp A          &kp E      &kp I
 &sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z    &kp SQT    &kp G  &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
-                              &mo 2  &key_repeat  &kp R    &kp SPACE  &mo 3  &mo 4
+                              &mo 3  &key_repeat  &kp R    &kp SPACE  &mo 4  &mo 5
             >;
         };
     };
