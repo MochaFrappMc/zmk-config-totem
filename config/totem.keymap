@@ -77,6 +77,18 @@
             key-positions = <27 16>;
             layers = <1>;
         };
+
+        ds_combo {
+            bindings = <&macro_ng>;
+            key-positions = <1 11>;
+            layers = <1>;
+        };
+
+        rl_combo {
+            bindings = <&macro_ng>;
+            key-positions = <13 3>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -113,6 +125,20 @@
             #binding-cells = <0>;
             bindings = <&key_repeat>;
             label = "REPEAT_MAYBE";
+        };
+
+        ds_combo: ds_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp S>;
+            label = "DS_COMBO";
+        };
+
+        rl_combo: rl_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp L>;
+            label = "RL_COMBO";
         };
     };
 
