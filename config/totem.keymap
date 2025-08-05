@@ -67,7 +67,7 @@
         };
 
         ou-combo {
-            bindings = <&macro_combo_ou>;
+            bindings = <&macro_ou>;
             key-positions = <35 36>;
         };
     };
@@ -80,24 +80,24 @@
             label = "MEOWKEY";
         };
 
-        macro_combo_ou: combo_magic_ue {
+        macro_ou: combo_magic_ue {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp O &kp U>;
             label = "COMBO_MAGIC_UE";
         };
 
-        combo_magic_rr: combo_magic_rr {
+        macro_ng: combo_magic_rr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp R &kp R>;
+            bindings = <&kp N &kp G>;
             label = "COMBO_MAGIC_RR";
         };
 
-        combo_magic_ay_macro: combo_magic_ay_macro {
+        macro_tc: combo_magic_ay_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp Y>;
+            bindings = <&kp C &kp T>;
             label = "COMBO_MAGIC_AY_MACRO";
         };
 
