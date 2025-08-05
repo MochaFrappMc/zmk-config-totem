@@ -69,6 +69,13 @@
         ou-combo {
             bindings = <&macro_ou>;
             key-positions = <35 36>;
+            layers = <1>;
+        };
+
+        ng-combo {
+            bindings = <&macro_ng>;
+            key-positions = <27 16>;
+            layers = <1>;
         };
     };
 
@@ -154,7 +161,7 @@
             bindings = <
                 &kp M  &kp B  &kp P  &kp L        &none        &kp F  &kp K  &kp J        &kp Q  &kp Y
                 &kp W  &kp S  &kp T  &kp R        &kp X        &kp V  &kp N  &kp A        &kp E  &kp I
-&kp LEFT_SHIFT  &none  &kp D  &kp D  &kp H        &none        &none  &kp G  &key_repeat  &kp Z  &mo 3  &kp LEFT_SHIFT
+&kp LEFT_SHIFT  &none  &kp D  &kp C  &kp H        &none        &none  &kp G  &key_repeat  &kp Z  &mo 3  &kp LEFT_SHIFT
                               &mo 2  &key_repeat  &kp SPACE    &kp O  &kp U  &mo 4
             >;
         };
