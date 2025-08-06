@@ -97,7 +97,7 @@
         };
 
         hr-combo {
-            bindings = <&macro_ct>;
+            bindings = <&macro_hr>;
             key-positions = <13 24>;
             layers = <1>;
         };
