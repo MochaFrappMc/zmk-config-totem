@@ -48,7 +48,7 @@
 
         escapeCombo {
             bindings = <&kp ESCAPE>;
-            key-positions = <21 20 31>;
+            key-positions = <21 20>;
         };
 
         mouse {
