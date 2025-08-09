@@ -96,11 +96,6 @@
             layers = <1>;
         };
 
-        er_combo {
-            bindings = <&macro_er>;
-            key-positions = <29 18>;
-        };
-
         nk_combo {
             bindings = <&macro_nk>;
             key-positions = <16 6>;
