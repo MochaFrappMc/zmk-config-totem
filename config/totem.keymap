@@ -78,33 +78,32 @@
             layers = <1>;
         };
 
-        ds_combo {
-            bindings = <&macro_ds>;
-            key-positions = <1 11>;
+        wh_combo {
+            bindings = <&macro_wh>;
+            key-positions = <24 13>;
             layers = <1>;
         };
 
         rl_combo {
             bindings = <&macro_rl>;
-            key-positions = <13 3>;
+            key-positions = <2 12>;
             layers = <1>;
         };
 
         ct_combo {
             bindings = <&macro_ct>;
-            key-positions = <13 3>;
-            layers = <1>;
-        };
-
-        hr-combo {
-            bindings = <&macro_hr>;
-            key-positions = <13 24>;
+            key-positions = <11 1>;
             layers = <1>;
         };
 
         er_combo {
             bindings = <&macro_er>;
             key-positions = <29 18>;
+        };
+
+        nk_combo {
+            bindings = <&macro_nk>;
+            key-positions = <16 6>;
         };
     };
 
@@ -144,10 +143,10 @@
             label = "REPEAT_MAYBE";
         };
 
-        macro_ds: ds_combo {
+        macro_wh: ds_combo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp D &kp S>;
+            bindings = <&kp W &kp H>;
             label = "DS_COMBO";
         };
 
