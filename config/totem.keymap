@@ -85,7 +85,7 @@
         };
 
         rl_combo {
-            bindings = <&macro_rl>;
+            bindings = <&macro_kn>;
             key-positions = <2 12>;
             layers = <1>;
         };
@@ -99,6 +99,16 @@
         nk_combo {
             bindings = <&macro_nk>;
             key-positions = <16 6>;
+        };
+
+        kn-combo {
+            bindings = <&macro_kn>;
+            key-positions = <16 6 33>;
+        };
+
+        kn_space_combo {
+            bindings = <&macro_kn_space>;
+            key-positions = <16 6 33 34>;
         };
     };
 
@@ -145,10 +155,10 @@
             label = "DS_COMBO";
         };
 
-        macro_rl: rl_combo {
+        macro_kn: rl_combo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp R &kp L>;
+            bindings = <&kp K &kp N>;
             label = "RL_COMBO";
         };
 
@@ -171,6 +181,13 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp R>;
             label = "MACRO_ER";
+        };
+
+        macro_kn_space: macro_kn_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp N &kp SPACE>;
+            label = "MACRO_KN_SPACE";
         };
     };
 
