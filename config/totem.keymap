@@ -85,7 +85,7 @@
         };
 
         rl_combo {
-            bindings = <&macro_kn>;
+            bindings = <&macro_rl>;
             key-positions = <2 12>;
             layers = <1>;
         };
@@ -109,6 +109,30 @@
         kn_space_combo {
             bindings = <&macro_kn_space>;
             key-positions = <16 6 33 34>;
+        };
+
+        tc_combo {
+            bindings = <&macro_tc>;
+            key-positions = <11 1 33>;
+            layers = <1>;
+        };
+
+        uo_combo {
+            bindings = <&macro_uo>;
+            key-positions = <35 36 33>;
+            layers = <1>;
+        };
+
+        combo_lr {
+            bindings = <&macro_rl>;
+            key-positions = <2 12 33>;
+            layers = <1>;
+        };
+
+        gn_combo {
+            bindings = <&macro_gn>;
+            key-positions = <27 16 33>;
+            layers = <1>;
         };
     };
 
@@ -169,13 +193,6 @@
             label = "KN_COMBO";
         };
 
-        macro_hr: macro_hr {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp H &kp R>;
-            label = "MACRO_HR";
-        };
-
         macro_er: macro_er {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -188,6 +205,55 @@
             #binding-cells = <0>;
             bindings = <&kp K &kp N &kp SPACE>;
             label = "MACRO_KN_SPACE";
+        };
+
+        macro_gn: macro_gn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp N>;
+            label = "MACRO_GN";
+        };
+
+        macro_tc: macro_tc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp C>;
+            label = "MACRO_TC";
+        };
+
+        macro_uo: macro_uo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp O>;
+            label = "MACRO_UO";
+        };
+
+        macro_yi: macro_yi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I>;
+            label = "MACRO_YI";
+        };
+
+        macro_iy: macro_iy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp Y>;
+            label = "MACRO_IY";
+        };
+
+        macro_rl: macro_rl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp L>;
+            label = "MACRO_RL";
+        };
+
+        macro_lr: macro_lr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp R>;
+            label = "MACRO_LR";
         };
     };
 
