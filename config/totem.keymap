@@ -139,6 +139,11 @@
             bindings = <&macro_ze>;
             key-positions = <30 19>;
         };
+
+        e_combo {
+            bindings = <&kp E>;
+            key-positions = <23 12>;
+        };
     };
 
     macros {
