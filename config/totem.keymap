@@ -134,6 +134,11 @@
             key-positions = <27 16 33>;
             layers = <1>;
         };
+
+        ze_combo {
+            bindings = <&macro_ze>;
+            key-positions = <30 19>;
+        };
     };
 
     macros {
@@ -254,6 +259,13 @@
             #binding-cells = <0>;
             bindings = <&kp L &kp R>;
             label = "MACRO_LR";
+        };
+
+        macro_ze: macro_ze {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp E>;
+            label = "MACRO_ZE";
         };
     };
 
