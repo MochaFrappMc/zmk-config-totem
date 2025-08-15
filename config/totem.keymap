@@ -144,6 +144,12 @@
             bindings = <&kp E>;
             key-positions = <23 12>;
         };
+
+        e-combo-base {
+            bindings = <&kp E>;
+            key-positions = <23 12>;
+            layers = <0>;
+        };
     };
 
     macros {
