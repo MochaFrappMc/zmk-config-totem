@@ -72,9 +72,9 @@
             layers = <1>;
         };
 
-        ng-combo {
-            bindings = <&macro_ng>;
-            key-positions = <27 16>;
+        st-combo {
+            bindings = <&macro_st>;
+            key-positions = <12 2>;
             layers = <1>;
         };
 
@@ -150,6 +150,12 @@
             key-positions = <21 10>;
             layers = <0>;
         };
+
+        ts_combo {
+            bindings = <&macro_ts>;
+            key-positions = <12 2 33>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -167,10 +173,10 @@
             label = "COMBO_MAGIC_UE";
         };
 
-        macro_ng: combo_magic_rr {
+        macro_st: combo_magic_rr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N &kp G>;
+            bindings = <&kp S &kp T>;
             label = "COMBO_MAGIC_RR";
         };
 
@@ -278,6 +284,20 @@
             bindings = <&kp Z &kp E>;
             label = "MACRO_ZE";
         };
+
+        macro_repeat: macro_repeat {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&key_repeat>;
+            label = "MACRO_REPEAT";
+        };
+
+        macro_ts: macro_ts {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp T>;
+            label = "MACRO_TS";
+        };
     };
 
     behaviors {
@@ -323,9 +343,9 @@
 
         StrawberryTurtle-AnothaOne {
             bindings = <
-                &kp V  &kp C  &kp L  &kp D        &kp F        &kp P    &kp K  &key_repeat  &kp Q  &kp Y
-                &kp S  &kp T  &kp R  &kp H        &kp M        &kp B    &kp N  &kp A        &kp E  &kp I
-&kp LEFT_SHIFT  &none  &none  &kp X  &kp W        &none        &none    &kp G  &kp J        &kp Z  &mo 4  &kp LEFT_SHIFT
+                &kp B  &kp L  &kp S  &kp C        &kp V        &kp P    &kp M  &kp Y  &kp Z  &key_repeat
+                &kp N  &kp R  &kp T  &kp H        &kp G        &kp W    &kp D  &kp I  &kp E  &kp A
+&kp LEFT_SHIFT  &none  &kp X  &kp Q  &kp K        &none        &none    &kp F  &kp J  &none  &none        &kp LEFT_SHIFT
                               &mo 3  &key_repeat  &kp SPACE    &lt 2 O  &kp U  &mo 5
             >;
         };
