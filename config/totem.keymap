@@ -99,11 +99,13 @@
         ck_combo {
             bindings = <&macro_ck>;
             key-positions = <4 3>;
+            layers = <1>;
         };
 
         mp_combo {
             bindings = <&macro_mp>;
             key-positions = <6 5>;
+            layers = <1>;
         };
 
         uo_combo {
@@ -127,6 +129,7 @@
         ze_combo {
             bindings = <&macro_ze>;
             key-positions = <30 19>;
+            layers = <1>;
         };
 
         e-combo-base {
