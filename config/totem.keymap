@@ -265,7 +265,7 @@
         macro_ts: macro_ts {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp T>;
+            bindings = <&kp T &kp S>;
             label = "MACRO_TS";
         };
     };
