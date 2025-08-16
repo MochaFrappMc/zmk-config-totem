@@ -129,11 +129,6 @@
             key-positions = <30 19>;
         };
 
-        e_combo {
-            bindings = <&kp E>;
-            key-positions = <23 12>;
-        };
-
         e-combo-base {
             bindings = <&kp E>;
             key-positions = <21 10>;
