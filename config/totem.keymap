@@ -114,7 +114,7 @@
 
         combo_lr {
             bindings = <&macro_rl>;
-            key-positions = <2 12 33>;
+            key-positions = <33 1 11>;
             layers = <1>;
         };
 
