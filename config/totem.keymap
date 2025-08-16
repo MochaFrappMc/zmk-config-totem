@@ -143,6 +143,12 @@
             key-positions = <12 2 33>;
             layers = <1>;
         };
+
+        ts_space_combo {
+            bindings = <&macro_ts_space>;
+            key-positions = <12 2 33 34>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -296,6 +302,15 @@
             #binding-cells = <0>;
             bindings = <&kp T &kp S>;
             label = "MACRO_TS";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ts_space: macro_ts_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp S &kp SPACE>;
+            label = "MACRO_TS_SPACE";
             wait-ms = <0>;
             tap-ms = <0>;
         };
