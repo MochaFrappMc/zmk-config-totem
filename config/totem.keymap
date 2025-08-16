@@ -311,7 +311,7 @@
             >;
         };
 
-        StrawberryTurtle-AnothaOne {
+        stout {
             bindings = <
                 &kp B  &kp L  &kp S  &kp C        &kp K        &kp P    &kp M  &kp Y  &kp Z  &key_repeat
                 &kp N  &kp R  &kp T  &kp H        &kp V        &kp W    &kp D  &kp I  &kp E  &kp A
