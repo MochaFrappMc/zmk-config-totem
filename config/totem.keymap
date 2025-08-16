@@ -158,6 +158,8 @@
             #binding-cells = <0>;
             bindings = <&kp O &kp U>;
             label = "COMBO_MAGIC_UE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         macro_st: combo_magic_rr {
@@ -165,6 +167,8 @@
             #binding-cells = <0>;
             bindings = <&kp S &kp T>;
             label = "COMBO_MAGIC_RR";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         macro_gh: combo_magic_ay_macro {
@@ -172,6 +176,8 @@
             #binding-cells = <0>;
             bindings = <&kp G &kp H>;
             label = "COMBO_MAGIC_AY_MACRO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         repeat_maybe: repeat_maybe {
