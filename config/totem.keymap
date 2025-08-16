@@ -78,43 +78,32 @@
             layers = <1>;
         };
 
-        wh_combo {
-            bindings = <&macro_wh>;
-            key-positions = <24 13>;
+        ch_combo {
+            bindings = <&macro_ch>;
+            key-positions = <13 3>;
             layers = <1>;
         };
 
         rl_combo {
             bindings = <&macro_rl>;
-            key-positions = <2 12>;
+            key-positions = <1 11>;
             layers = <1>;
         };
 
-        ct_combo {
-            bindings = <&macro_ct>;
-            key-positions = <11 1>;
+        gh_combo {
+            bindings = <&macro_gh>;
+            key-positions = <24 13>;
             layers = <1>;
         };
 
-        nk_combo {
-            bindings = <&macro_nk>;
-            key-positions = <16 6>;
+        ck_combo {
+            bindings = <&macro_ck>;
+            key-positions = <4 3>;
         };
 
-        kn-combo {
-            bindings = <&macro_kn>;
-            key-positions = <16 6 33>;
-        };
-
-        kn_space_combo {
-            bindings = <&macro_kn_space>;
-            key-positions = <16 6 33 34>;
-        };
-
-        tc_combo {
-            bindings = <&macro_tc>;
-            key-positions = <11 1 33>;
-            layers = <1>;
+        mp_combo {
+            bindings = <&macro_mp>;
+            key-positions = <6 5>;
         };
 
         uo_combo {
@@ -180,10 +169,10 @@
             label = "COMBO_MAGIC_RR";
         };
 
-        macro_ct: combo_magic_ay_macro {
+        macro_gh: combo_magic_ay_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp T>;
+            bindings = <&kp G &kp H>;
             label = "COMBO_MAGIC_AY_MACRO";
         };
 
@@ -194,24 +183,24 @@
             label = "REPEAT_MAYBE";
         };
 
-        macro_wh: ds_combo {
+        macro_ch: ds_combo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &kp H>;
+            bindings = <&kp C &kp H>;
             label = "DS_COMBO";
         };
 
-        macro_kn: rl_combo {
+        macro_mp: rl_combo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp K &kp N>;
+            bindings = <&kp M &kp P>;
             label = "RL_COMBO";
         };
 
-        macro_nk: kn_combo {
+        macro_ck: kn_combo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N &kp K>;
+            bindings = <&kp C &kp K>;
             label = "KN_COMBO";
         };
 
@@ -222,25 +211,11 @@
             label = "MACRO_ER";
         };
 
-        macro_kn_space: macro_kn_space {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp N &kp SPACE>;
-            label = "MACRO_KN_SPACE";
-        };
-
         macro_gn: macro_gn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp N>;
             label = "MACRO_GN";
-        };
-
-        macro_tc: macro_tc {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp C>;
-            label = "MACRO_TC";
         };
 
         macro_uo: macro_uo {
@@ -343,9 +318,9 @@
 
         StrawberryTurtle-AnothaOne {
             bindings = <
-                &kp B  &kp L  &kp S  &kp C        &kp V        &kp P    &kp M  &kp Y  &kp Z  &key_repeat
-                &kp N  &kp R  &kp T  &kp H        &kp G        &kp W    &kp D  &kp I  &kp E  &kp A
-&kp LEFT_SHIFT  &none  &kp X  &kp Q  &kp K        &none        &none    &kp F  &kp J  &none  &none        &kp LEFT_SHIFT
+                &kp B  &kp L  &kp S  &kp C        &kp K        &kp P    &kp M  &kp Y  &kp Z  &key_repeat
+                &kp N  &kp R  &kp T  &kp H        &kp V        &kp W    &kp D  &kp I  &kp E  &kp A
+&kp LEFT_SHIFT  &none  &kp X  &kp Q  &kp G        &none        &none    &kp F  &kp J  &none  &none        &kp LEFT_SHIFT
                               &mo 3  &key_repeat  &kp SPACE    &lt 2 O  &kp U  &mo 5
             >;
         };
