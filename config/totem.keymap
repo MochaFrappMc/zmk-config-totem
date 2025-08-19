@@ -68,7 +68,7 @@
 
         ou-combo {
             bindings = <&macro_ou>;
-            key-positions = <35 36>;
+            key-positions = <19 9>;
             layers = <1>;
         };
 
@@ -110,7 +110,7 @@
 
         uo_combo {
             bindings = <&macro_uo>;
-            key-positions = <35 36 33>;
+            key-positions = <33 19 9>;
             layers = <1>;
         };
 
