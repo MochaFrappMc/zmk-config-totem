@@ -320,6 +320,8 @@
             #binding-cells = <0>;
             bindings = <&kp N &kp SQT>;
             label = "MACRO_N_QUOTE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
     };
 
