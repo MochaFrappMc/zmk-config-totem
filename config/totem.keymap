@@ -68,7 +68,7 @@
 
         ou-combo {
             bindings = <&macro_ou>;
-            key-positions = <19 9>;
+            key-positions = <17 7>;
             layers = <1>;
         };
 
@@ -110,7 +110,7 @@
 
         uo_combo {
             bindings = <&macro_uo>;
-            key-positions = <33 19 9>;
+            key-positions = <33 17 7>;
             layers = <1>;
         };
 
@@ -126,9 +126,9 @@
             layers = <1>;
         };
 
-        ze_combo {
-            bindings = <&macro_ze>;
-            key-positions = <30 19>;
+        yi_combo {
+            bindings = <&macro_yi>;
+            key-positions = <18 8>;
             layers = <1>;
         };
 
@@ -368,9 +368,9 @@
 
         stout {
             bindings = <
-                &kp B             &kp L  &kp S  &kp C        &kp K        &kp P          &kp M        &kp Y  &kp U      &kp COMMA
-                &kp N             &kp R  &kp T  &kp H        &kp F        &kp W          &kp D        &kp I  &kp O      &kp A
-&kp LEFT_SHIFT  &kp SINGLE_QUOTE  &kp X  &kp Q  &kp G        &kp Z        &kp SEMICOLON  &kp V        &kp J  &kp SLASH  &kp PERIOD  &kp LEFT_SHIFT
+                &kp B             &kp L  &kp S  &kp C        &kp K        &kp P          &kp M        &kp U      &kp Y  &kp COMMA
+                &kp N             &kp R  &kp T  &kp H        &kp F        &kp W          &kp D        &kp O      &kp I  &kp A
+&kp LEFT_SHIFT  &kp SINGLE_QUOTE  &kp X  &kp Q  &kp G        &kp Z        &kp SEMICOLON  &kp V        &kp SLASH  &kp J  &kp PERIOD  &kp LEFT_SHIFT
                                          &mo 3  &key_repeat  &kp SPACE    &lt 2 E        &key_repeat  &mo 5
             >;
         };
