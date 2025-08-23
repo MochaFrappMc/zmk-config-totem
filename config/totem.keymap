@@ -32,7 +32,7 @@
     tapping-term-ms = <170>;
 };
 
-&sk { release-after-ms = <100>; };
+&sk { release-after-ms = <10>; };
 
 &mmv { time-to-max-speed-ms = <400>; };
 
