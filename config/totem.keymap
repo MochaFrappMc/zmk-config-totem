@@ -375,7 +375,7 @@
             label = "STICKY_SHIFT";
             bindings = <&kp>;
             #binding-cells = <1>;
-            release-after-ms = <1>;
+            release-after-ms = <0>;
             quick-release;
             ignore-modifiers;
         };
