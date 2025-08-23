@@ -35,7 +35,6 @@
 &sk {
     release-after-ms = <10>;
     quick-release;
-    lazy;
 };
 
 &mmv { time-to-max-speed-ms = <400>; };
