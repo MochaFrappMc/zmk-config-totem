@@ -409,7 +409,7 @@
             >;
         };
 
-        stout {
+        stoat {
             bindings = <
                 &kp B             &kp L  &kp S  &kp C        &kp K        &kp P    &kp M        &kp U     &kp Y      &kp COMMA
                 &kp N             &kp R  &kp T  &kp H        &kp F        &kp V    &kp D        &kp O     &kp I      &kp A
