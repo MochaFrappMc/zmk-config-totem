@@ -59,6 +59,7 @@
         navLayerCombo {
             bindings = <&mo 3>;
             key-positions = <34 33>;
+            layers = <0 3>;
         };
 
         gui_layer {
@@ -178,6 +179,12 @@
             bindings = <&macro_ee>;
             key-positions = <35 36>;
             layers = <0>;
+        };
+
+        ll_space_combo {
+            bindings = <&macro_ll_space>;
+            key-positions = <33 34 1>;
+            layers = <1>;
         };
     };
 
@@ -368,6 +375,33 @@
             #binding-cells = <0>;
             bindings = <&kp R &kp R>;
             label = "MACRO_RR";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ll_space: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp L &kp SPACE>;
+            label = "NEW_MACRO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ss_space: macro_ss_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp S &kp SPACE>;
+            label = "MACRO_SS_SPACE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_gg_space: macro_gg_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp G &kp SPACE>;
+            label = "MACRO_GG_SPACE";
             wait-ms = <0>;
             tap-ms = <0>;
         };
