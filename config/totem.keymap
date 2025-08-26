@@ -173,6 +173,12 @@
             key-positions = <12 23 28 17>;
             layers = <1>;
         };
+
+        rr_combo_base {
+            bindings = <&macro_ee>;
+            key-positions = <35 36>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -353,6 +359,15 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp E>;
             label = "MACRO_EE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_rr: macro_rr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp R>;
+            label = "MACRO_RR";
             wait-ms = <0>;
             tap-ms = <0>;
         };
