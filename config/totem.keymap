@@ -176,7 +176,7 @@
         };
 
         rr_combo_base {
-            bindings = <&macro_ee>;
+            bindings = <&macro_rr>;
             key-positions = <35 36>;
             layers = <0>;
         };
