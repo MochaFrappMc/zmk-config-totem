@@ -186,6 +186,11 @@
             key-positions = <33 34 1>;
             layers = <1>;
         };
+
+        control_backspace_combo {
+            bindings = <&macro_ctrl_backspace>;
+            key-positions = <29 28>;
+        };
     };
 
     macros {
@@ -402,6 +407,15 @@
             #binding-cells = <0>;
             bindings = <&kp G &kp G &kp SPACE>;
             label = "MACRO_GG_SPACE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ctrl_backspace: macro_ctrl_backspace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(BACKSPACE)>;
+            label = "MACRO_CTRL_BACKSPACE";
             wait-ms = <0>;
             tap-ms = <0>;
         };
