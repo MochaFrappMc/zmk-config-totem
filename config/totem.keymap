@@ -436,7 +436,7 @@
         stoat {
             bindings = <
                 &kp B             &kp L  &kp S  &kp C        &kp K        &kp V    &kp M        &kp U     &kp Y      &kp COMMA
-                &kp N             &kp R  &kp T  &kp H        &kp F        &kp W    &kp D        &kp O     &kp I      &kp A
+                &kp N             &kp R  &kp T  &kp H        &kp P        &kp W    &kp D        &kp O     &kp I      &kp A
 &kp LEFT_SHIFT  &kp SINGLE_QUOTE  &kp X  &kp Z  &kp G        &kp J        &kp Q    &kp F        &kp SEMI  &kp SLASH  &kp PERIOD  &kp RIGHT_SHIFT
                                          &mo 2  &key_repeat  &kp SPACE    &lt 3 E  &key_repeat  &mo 4
             >;
