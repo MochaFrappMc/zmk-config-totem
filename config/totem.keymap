@@ -81,7 +81,7 @@
 
         ch_combo {
             bindings = <&macro_ch>;
-            key-positions = <13 3>;
+            key-positions = <16 6>;
             layers = <1>;
         };
 
@@ -93,13 +93,13 @@
 
         gh_combo {
             bindings = <&macro_gh>;
-            key-positions = <24 13>;
+            key-positions = <16 15>;
             layers = <1>;
         };
 
         ck_combo {
             bindings = <&macro_ck>;
-            key-positions = <4 3>;
+            key-positions = <6 5>;
             layers = <1>;
         };
 
