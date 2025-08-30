@@ -103,12 +103,6 @@
             layers = <1>;
         };
 
-        mp_combo {
-            bindings = <&macro_mp>;
-            key-positions = <6 5>;
-            layers = <1>;
-        };
-
         uo_combo {
             bindings = <&macro_uo>;
             key-positions = <33 17 7>;
@@ -118,12 +112,6 @@
         combo_lr {
             bindings = <&macro_rl>;
             key-positions = <33 1 11>;
-            layers = <1>;
-        };
-
-        gn_combo {
-            bindings = <&macro_gn>;
-            key-positions = <27 16 33>;
             layers = <1>;
         };
 
@@ -244,15 +232,6 @@
             tap-ms = <0>;
         };
 
-        macro_mp: rl_combo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp M &kp P>;
-            label = "RL_COMBO";
-            wait-ms = <0>;
-            tap-ms = <0>;
-        };
-
         macro_ck: kn_combo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -267,15 +246,6 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp R>;
             label = "MACRO_ER";
-        };
-
-        macro_gn: macro_gn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp G &kp N>;
-            label = "MACRO_GN";
-            wait-ms = <0>;
-            tap-ms = <0>;
         };
 
         macro_uo: macro_uo {
@@ -319,15 +289,6 @@
             #binding-cells = <0>;
             bindings = <&kp L &kp R>;
             label = "MACRO_LR";
-            wait-ms = <0>;
-            tap-ms = <0>;
-        };
-
-        macro_ze: macro_ze {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Z &kp E>;
-            label = "MACRO_ZE";
             wait-ms = <0>;
             tap-ms = <0>;
         };
@@ -474,9 +435,9 @@
 
         stoat {
             bindings = <
-                &kp B             &kp L  &kp S  &kp C        &kp K        &kp P    &kp M        &kp U     &kp Y      &kp COMMA
-                &kp N             &kp R  &kp T  &kp H        &kp F        &kp V    &kp D        &kp O     &kp I      &kp A
-&kp LEFT_SHIFT  &kp SINGLE_QUOTE  &kp X  &kp Z  &kp G        &kp J        &kp Q    &kp W        &kp SEMI  &kp SLASH  &kp PERIOD  &kp RIGHT_SHIFT
+                &kp B             &kp L  &kp S  &kp C        &kp K        &kp V    &kp M        &kp U     &kp Y      &kp COMMA
+                &kp N             &kp R  &kp T  &kp H        &kp F        &kp W    &kp D        &kp O     &kp I      &kp A
+&kp LEFT_SHIFT  &kp SINGLE_QUOTE  &kp X  &kp Z  &kp G        &kp J        &kp Q    &kp F        &kp SEMI  &kp SLASH  &kp PERIOD  &kp RIGHT_SHIFT
                                          &mo 2  &key_repeat  &kp SPACE    &lt 3 E  &key_repeat  &mo 4
             >;
         };
