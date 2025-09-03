@@ -179,6 +179,12 @@
             bindings = <&macro_ctrl_backspace>;
             key-positions = <29 28>;
         };
+
+        dv_combo {
+            bindings = <&macro_dv>;
+            key-positions = <24 13>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -377,6 +383,15 @@
             #binding-cells = <0>;
             bindings = <&kp LC(BACKSPACE)>;
             label = "MACRO_CTRL_BACKSPACE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_dv: macro_dv {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp V>;
+            label = "MACRO_DV";
             wait-ms = <0>;
             tap-ms = <0>;
         };
