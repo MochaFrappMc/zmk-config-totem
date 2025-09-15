@@ -456,10 +456,10 @@
 
         doves {
             bindings = <
-                &kp B             &kp L  &kp D  &kp G        &kp M        &kp Q    &kp C        &kp U     &kp Y      &kp COMMA
-                &kp N             &kp R  &kp S  &kp H        &kp P        &kp J    &kp T        &kp O     &kp I      &kp A
-&kp LEFT_SHIFT  &kp SINGLE_QUOTE  &kp X  &kp V  &kp W        &kp F        &kp Z    &kp K        &kp SEMI  &kp SLASH  &kp PERIOD  &kp RIGHT_SHIFT
-                                         &mo 2  &key_repeat  &kp SPACE    &lt 3 E  &key_repeat  &mo 4
+                &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp W      &kp G        &kp D  &kp L  &kp B
+                &kp A       &kp I      &kp O          &kp T        &kp Z      &kp F      &kp H        &kp S  &kp R  &kp N
+&kp LEFT_SHIFT  &kp PERIOD  &kp SLASH  &kp SEMICOLON  &kp K        &kp X      &kp M      &kp P        &kp V  &kp J  &kp SQT  &kp RIGHT_SHIFT
+                                       &mo 2          &key_repeat  &lt 3 E    &kp SPACE  &key_repeat  &mo 4
             >;
         };
 
