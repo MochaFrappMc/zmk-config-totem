@@ -69,55 +69,49 @@
 
         ou-combo {
             bindings = <&macro_ou>;
-            key-positions = <17 7>;
+            key-positions = <12 2>;
             layers = <1>;
         };
 
         ds-combo {
             bindings = <&macro_ds>;
-            key-positions = <12 2>;
+            key-positions = <17 7>;
             layers = <1>;
         };
 
         ct_combo {
             bindings = <&macro_ct>;
-            key-positions = <16 6>;
+            key-positions = <13 3>;
             layers = <1>;
         };
 
         rl_combo {
             bindings = <&macro_rl>;
-            key-positions = <1 11>;
+            key-positions = <18 8>;
             layers = <1>;
         };
 
         gh_combo {
             bindings = <&macro_gh>;
-            key-positions = <13 3>;
+            key-positions = <16 6>;
             layers = <1>;
         };
 
         ck_combo {
             bindings = <&macro_ck>;
-            key-positions = <6 5>;
-            layers = <1>;
-        };
-
-        uo_combo {
-            bindings = <&macro_uo>;
-            key-positions = <33 17 7>;
+            key-positions = <4 3>;
             layers = <1>;
         };
 
         combo_lr {
             bindings = <&macro_rl>;
-            key-positions = <33 1 11>;
+            key-positions = <18 8 36>;
             layers = <1>;
         };
 
         yi_combo {
             bindings = <&macro_yi>;
-            key-positions = <18 8>;
+            key-positions = <11 1>;
             layers = <1>;
         };
 
@@ -129,7 +123,7 @@
 
         ee_combo {
             bindings = <&macro_ee>;
-            key-positions = <35 36>;
+            key-positions = <33 34>;
             layers = <1>;
         };
 
@@ -159,7 +153,7 @@
 
         ll_space_combo {
             bindings = <&macro_ll_space>;
-            key-positions = <33 34 1>;
+            key-positions = <8 36 35>;
             layers = <1>;
         };
 
@@ -170,19 +164,19 @@
 
         wh_combo {
             bindings = <&macro_wh>;
-            key-positions = <24 13>;
+            key-positions = <15 16>;
             layers = <1>;
         };
 
         mp_combo {
             bindings = <&macro_mp>;
-            key-positions = <4 14>;
+            key-positions = <26 27>;
             layers = <1>;
         };
 
         hp_combo {
             bindings = <&macro_mp>;
-            key-positions = <14 13>;
+            key-positions = <27 16>;
             layers = <1>;
         };
 
@@ -456,8 +450,8 @@
 
         doves {
             bindings = <
-                &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp W      &kp G        &kp D  &kp L  &kp B
-                &kp A       &kp I      &kp O          &kp T        &kp Z      &kp F      &kp H        &kp S  &kp R  &kp N
+                &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp F      &kp G        &kp D  &kp L  &kp B
+                &kp A       &kp I      &kp O          &kp T        &kp Z      &kp W      &kp H        &kp S  &kp R  &kp N
 &kp LEFT_SHIFT  &kp PERIOD  &kp SLASH  &kp SEMICOLON  &kp K        &kp X      &kp M      &kp P        &kp V  &kp J  &kp SQT  &kp RIGHT_SHIFT
                                        &mo 2          &key_repeat  &lt 3 E    &kp SPACE  &key_repeat  &mo 4
             >;
