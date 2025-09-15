@@ -170,7 +170,7 @@
 
         mp_combo {
             bindings = <&macro_mp>;
-            key-positions = <26 27 3>;
+            key-positions = <26 27>;
             layers = <1>;
         };
 
