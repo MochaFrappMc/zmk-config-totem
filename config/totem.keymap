@@ -170,7 +170,7 @@
 
         mp_combo {
             bindings = <&macro_mp>;
-            key-positions = <26 27>;
+            key-positions = <26 27 3>;
             layers = <1>;
         };
 
@@ -184,6 +184,12 @@
             bindings = <&kp A>;
             key-positions = <3 4>;
             layers = <0>;
+        };
+
+        nquote_combo {
+            bindings = <&macro_n_quote>;
+            key-positions = <30 19>;
+            layers = <1>;
         };
     };
 
