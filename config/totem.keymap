@@ -484,11 +484,11 @@
             >;
         };
 
-        fasern {
+        doves {
             bindings = <
-                &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp F      &kp W        &kp D  &kp L  &kp B
-                &kp A       &kp I      &kp O          &kp T        &kp K      &kp P      &kp H        &kp S  &kp R  &kp N
-&kp LEFT_SHIFT  &kp PERIOD  &kp SLASH  &kp SEMICOLON  &kp V        &kp X      &kp Z      &kp W        &kp G  &kp J  &kp SQT  &kp RIGHT_SHIFT
+                &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp F      &kp G        &kp D  &kp L  &kp B
+                &kp A       &kp I      &kp O          &kp T        &kp Z      &kp W      &kp H        &kp S  &kp R  &kp N
+&kp LEFT_SHIFT  &kp PERIOD  &kp SLASH  &kp SEMICOLON  &kp K        &kp X      &kp M      &kp P        &kp V  &kp J  &kp SQT  &kp RIGHT_SHIFT
                                        &mo 2          &key_repeat  &lt 3 E    &kp SPACE  &key_repeat  &mo 4
             >;
         };
