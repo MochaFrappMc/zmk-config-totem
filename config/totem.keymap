@@ -91,9 +91,9 @@
             layers = <1>;
         };
 
-        gh_combo {
-            bindings = <&macro_gh>;
-            key-positions = <16 6>;
+        gs_combo {
+            bindings = <&macro_gs>;
+            key-positions = <28 17>;
             layers = <1>;
         };
 
@@ -164,19 +164,19 @@
 
         wh_combo {
             bindings = <&macro_wh>;
-            key-positions = <15 16>;
+            key-positions = <16 27>;
             layers = <1>;
         };
 
         mp_combo {
             bindings = <&macro_mp>;
-            key-positions = <26 27>;
+            key-positions = <6 5>;
             layers = <1>;
         };
 
-        hp_combo {
-            bindings = <&macro_mp>;
-            key-positions = <27 16>;
+        ph_combo {
+            bindings = <&macro_ph>;
+            key-positions = <16 15>;
             layers = <1>;
         };
 
@@ -231,10 +231,10 @@
             tap-ms = <0>;
         };
 
-        macro_gh: combo_magic_ay_macro {
+        macro_gs: combo_magic_ay_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp H>;
+            bindings = <&kp G &kp S>;
             label = "COMBO_MAGIC_AY_MACRO";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -405,10 +405,10 @@
             tap-ms = <0>;
         };
 
-        macro_hp: macro_hp {
+        macro_ph: macro_hp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &kp P>;
+            bindings = <&kp P &kp H>;
             label = "MACRO_HP";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -486,8 +486,8 @@
 
         fasern {
             bindings = <
-                &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp F      &kp W        &kp D  &kp L  &kp B
-                &kp A       &kp I      &kp O          &kp T        &kp K      &kp P      &kp H        &kp S  &kp R  &kp N
+                &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp P      &kp M        &kp D  &kp L  &kp B
+                &kp A       &kp I      &kp O          &kp T        &kp K      &kp F      &kp H        &kp S  &kp R  &kp N
 &kp LEFT_SHIFT  &kp PERIOD  &kp SLASH  &kp SEMICOLON  &kp V        &kp X      &kp Z      &kp W        &kp G  &kp J  &kp SQT  &kp RIGHT_SHIFT
                                        &mo 2          &key_repeat  &lt 3 E    &kp SPACE  &key_repeat  &mo 4
             >;
