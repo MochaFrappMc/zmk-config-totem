@@ -203,6 +203,12 @@
             key-positions = <22 24 23 21>;
             layers = <0>;
         };
+
+        ev_combo {
+            bindings = <&macro_ev>;
+            key-positions = <14 13>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -428,6 +434,15 @@
             #binding-cells = <0>;
             bindings = <&kp T &kp H &kp E &kp SPACE>;
             label = "MACRO_THE_SPACE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ev: macro_ev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp V>;
+            label = "MACRO_EV";
             wait-ms = <0>;
             tap-ms = <0>;
         };
