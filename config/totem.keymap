@@ -59,6 +59,7 @@
         navLayerCombo {
             bindings = <&mo 3>;
             key-positions = <34 33>;
+            layers = <0 3>;
         };
 
         gui_layer {
@@ -66,301 +67,141 @@
             key-positions = <32 37>;
         };
 
-        left_L {
-            bindings = <&kp L>;
-            key-positions = <1 2>;
+        ou-combo {
+            bindings = <&macro_ou>;
+            key-positions = <12 2>;
             layers = <1>;
         };
 
-        right_L {
-            bindings = <&kp L>;
-            key-positions = <7 8>;
+        ds-combo {
+            bindings = <&macro_ds>;
+            key-positions = <17 7>;
             layers = <1>;
         };
 
-        left_r {
-            bindings = <&kp R>;
-            key-positions = <11 12>;
+        ct_combo {
+            bindings = <&macro_ct>;
+            key-positions = <13 3>;
             layers = <1>;
         };
 
-        right_r {
-            bindings = <&kp R>;
-            key-positions = <18 17>;
+        rl_combo {
+            bindings = <&macro_rl>;
+            key-positions = <18 8>;
             layers = <1>;
         };
 
-        left_m {
-            bindings = <&kp M>;
-            key-positions = <34 1 2>;
+        gh_combo {
+            bindings = <&macro_gh>;
+            key-positions = <16 6>;
             layers = <1>;
         };
 
-        right_m {
-            bindings = <&kp M>;
-            key-positions = <35 7 8>;
+        ck_combo {
+            bindings = <&macro_ck>;
+            key-positions = <4 3>;
             layers = <1>;
         };
 
-        left_u {
-            bindings = <&kp U>;
-            key-positions = <34 3>;
+        combo_lr {
+            bindings = <&macro_rl>;
+            key-positions = <18 8 36>;
             layers = <1>;
         };
 
-        right_u {
-            bindings = <&kp U>;
-            key-positions = <35 6>;
+        yi_combo {
+            bindings = <&macro_yi>;
+            key-positions = <11 1>;
             layers = <1>;
         };
 
-        left_w {
-            bindings = <&kp W>;
-            key-positions = <34 12 11>;
+        e-combo-base {
+            bindings = <&kp E>;
+            key-positions = <21 10>;
+            layers = <0>;
+        };
+
+        ee_combo {
+            bindings = <&macro_ee>;
+            key-positions = <33 34>;
             layers = <1>;
         };
 
-        right_w {
-            bindings = <&kp W>;
-            key-positions = <18 35 17>;
+        left_shift_combo {
+            bindings = <&sticky_shift LEFT_SHIFT>;
+            key-positions = <12 23>;
             layers = <1>;
         };
 
-        left_i {
-            bindings = <&kp I>;
-            key-positions = <34 13>;
+        right_shift_combo {
+            bindings = <&sticky_shift RIGHT_SHIFT>;
+            key-positions = <28 17>;
             layers = <1>;
         };
 
-        right_i {
-            bindings = <&kp I>;
-            key-positions = <35 16>;
+        caps_word_combo {
+            bindings = <&caps_word>;
+            key-positions = <12 23 28 17>;
             layers = <1>;
         };
 
-        left_y {
-            bindings = <&kp Y>;
-            key-positions = <2 3>;
+        rr_combo_base {
+            bindings = <&macro_rr>;
+            key-positions = <35 36>;
+            layers = <0>;
+        };
+
+        ll_space_combo {
+            bindings = <&macro_ll_space>;
+            key-positions = <8 36 35>;
             layers = <1>;
         };
 
-        right_y {
-            bindings = <&kp Y>;
-            key-positions = <6 7>;
+        control_backspace_combo {
+            bindings = <&macro_ctrl_backspace>;
+            key-positions = <29 28>;
+        };
+
+        wh_combo {
+            bindings = <&macro_wh>;
+            key-positions = <15 16>;
             layers = <1>;
         };
 
-        left_f {
-            bindings = <&kp F>;
-            key-positions = <12 13>;
+        mp_combo {
+            bindings = <&macro_mp>;
+            key-positions = <26 27>;
             layers = <1>;
         };
 
-        right_f {
-            bindings = <&kp F>;
-            key-positions = <17 16>;
+        hp_combo {
+            bindings = <&macro_mp>;
+            key-positions = <27 16>;
             layers = <1>;
         };
 
-        left_j {
-            bindings = <&kp J>;
-            key-positions = <34 2 3>;
+        a-combo-base {
+            bindings = <&kp A>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        nquote_combo {
+            bindings = <&macro_n_quote>;
+            key-positions = <30 19>;
             layers = <1>;
         };
 
-        right_j {
-            bindings = <&kp J>;
-            key-positions = <35 6 7>;
-            layers = <1>;
+        the_combo_base {
+            bindings = <&macro_the>;
+            key-positions = <22 24 23>;
+            layers = <0>;
         };
 
-        left_v {
-            bindings = <&kp V>;
-            key-positions = <34 13 12>;
-            layers = <1>;
-        };
-
-        right_v {
-            bindings = <&kp V>;
-            key-positions = <35 16 17>;
-            layers = <1>;
-        };
-
-        left_x {
-            bindings = <&kp X>;
-            key-positions = <1 2 3>;
-            layers = <1>;
-        };
-
-        right_x {
-            bindings = <&kp X>;
-            key-positions = <7 6 8>;
-            layers = <1>;
-        };
-
-        left_q {
-            bindings = <&kp Q>;
-            key-positions = <11 12 13>;
-            layers = <1>;
-        };
-
-        right_q {
-            bindings = <&kp Q>;
-            key-positions = <18 16 17>;
-            layers = <1>;
-        };
-
-        left_z {
-            bindings = <&kp Z>;
-            key-positions = <34 1 2 3>;
-            layers = <1>;
-        };
-
-        right_z {
-            bindings = <&kp Z>;
-            key-positions = <35 6 7 8>;
-            layers = <1>;
-        };
-
-        left_comma {
-            bindings = <&kp COMMA>;
-            key-positions = <12 3>;
-            layers = <1>;
-        };
-
-        right_comma {
-            bindings = <&kp COMMA>;
-            key-positions = <6 17>;
-            layers = <1>;
-        };
-
-        left_period {
-            bindings = <&kp PERIOD>;
-            key-positions = <13 2>;
-            layers = <1>;
-        };
-
-        right_period {
-            bindings = <&kp PERIOD>;
-            key-positions = <7 16>;
-            layers = <1>;
-        };
-
-        toggle_9 {
-            bindings = <&tog 1>;
-            key-positions = <33 36 16 13>;
-        };
-
-        left_g {
-            bindings = <&kp G>;
-            key-positions = <13 11>;
-            layers = <1>;
-        };
-
-        right_g {
-            bindings = <&kp G>;
-            key-positions = <16 18>;
-            layers = <1>;
-        };
-
-        left_b {
-            bindings = <&kp B>;
-            key-positions = <1 3>;
-            layers = <1>;
-        };
-
-        right_b {
-            bindings = <&kp B>;
-            key-positions = <8 6>;
-            layers = <1>;
-        };
-
-        left_d {
-            bindings = <&kp D>;
-            key-positions = <34 2>;
-            layers = <1>;
-        };
-
-        right_d {
-            bindings = <&kp D>;
-            key-positions = <7 35>;
-            layers = <1>;
-        };
-
-        left_k {
-            bindings = <&kp K>;
-            key-positions = <34 11 13>;
-            layers = <1>;
-        };
-
-        right_k {
-            bindings = <&kp K>;
-            key-positions = <35 16 18>;
-            layers = <1>;
-        };
-
-        left_p {
-            bindings = <&kp P>;
-            key-positions = <34 3 1>;
-            layers = <1>;
-        };
-
-        right_p {
-            bindings = <&kp P>;
-            key-positions = <35 6 8>;
-            layers = <1>;
-        };
-
-        left_c {
-            bindings = <&kp C>;
-            key-positions = <34 12>;
-            layers = <1>;
-        };
-
-        right_c {
-            bindings = <&kp C>;
-            key-positions = <35 17>;
-            layers = <1>;
-        };
-
-        left_s {
-            bindings = <&kp S>;
-            key-positions = <34 11>;
-            layers = <1>;
-        };
-
-        right_s {
-            bindings = <&kp S>;
-            key-positions = <35 18>;
-            layers = <1>;
-        };
-
-        magic_combo_one {
-            bindings = <&combo_magic_ue>;
-            key-positions = <36 8>;
-            layers = <10 0>;
-            timeout-ms = <40>;
-        };
-
-        combo_magic_ue_2 {
-            bindings = <&combo_magic_ue>;
-            key-positions = <8 33>;
-            layers = <10 0>;
-            timeout-ms = <40>;
-        };
-
-        combo_magic_rr {
-            bindings = <&combo_magic_rr>;
-            key-positions = <36 34>;
-            layers = <10 0>;
-            timeout-ms = <40>;
-        };
-
-        combo_magic_ay {
-            bindings = <&combo_magic_ay_macro>;
-            key-positions = <23 17>;
-            layers = <10 0>;
-            timeout-ms = <40>;
+        the_space_combo {
+            bindings = <&macro_the_space>;
+            key-positions = <22 24 23 21>;
+            layers = <0>;
         };
     };
 
@@ -372,25 +213,223 @@
             label = "MEOWKEY";
         };
 
-        combo_magic_ue: combo_magic_ue {
+        macro_ou: combo_magic_ue {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp U &kp E>;
+            bindings = <&kp O &kp U>;
             label = "COMBO_MAGIC_UE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
-        combo_magic_rr: combo_magic_rr {
+        macro_ds: combo_magic_rr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp S>;
+            label = "COMBO_MAGIC_RR";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_gh: combo_magic_ay_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp H>;
+            label = "COMBO_MAGIC_AY_MACRO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        repeat_maybe: repeat_maybe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&key_repeat>;
+            label = "REPEAT_MAYBE";
+        };
+
+        macro_ct: ds_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp T>;
+            label = "DS_COMBO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ck: kn_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp K>;
+            label = "KN_COMBO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_er: macro_er {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp R>;
+            label = "MACRO_ER";
+        };
+
+        macro_uo: macro_uo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp O>;
+            label = "MACRO_UO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_yi: macro_yi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I>;
+            label = "MACRO_YI";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_iy: macro_iy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp Y>;
+            label = "MACRO_IY";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_rl: macro_rl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp L>;
+            label = "MACRO_RL";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_lr: macro_lr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp R>;
+            label = "MACRO_LR";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_repeat: macro_repeat {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&key_repeat>;
+            label = "MACRO_REPEAT";
+        };
+
+        macro_n_quote: macro_n_quote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp SQT>;
+            label = "MACRO_N_QUOTE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ee: macro_ee {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp E>;
+            label = "MACRO_EE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_rr: macro_rr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp R>;
-            label = "COMBO_MAGIC_RR";
+            label = "MACRO_RR";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
-        combo_magic_ay_macro: combo_magic_ay_macro {
+        macro_ll_space: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp Y>;
-            label = "COMBO_MAGIC_AY_MACRO";
+            bindings = <&kp L &kp L &kp SPACE>;
+            label = "NEW_MACRO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ss_space: macro_ss_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp S &kp SPACE>;
+            label = "MACRO_SS_SPACE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_gg_space: macro_gg_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp G &kp SPACE>;
+            label = "MACRO_GG_SPACE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_ctrl_backspace: macro_ctrl_backspace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(BACKSPACE)>;
+            label = "MACRO_CTRL_BACKSPACE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_wh: macro_wh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp H>;
+            label = "MACRO_WH";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_mp: macro_mp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp P>;
+            label = "MACRO_MP";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_hp: macro_hp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp P>;
+            label = "MACRO_HP";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_the: macro_the {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp H &kp E>;
+            label = "MACRO_THE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_the_space: macro_the_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp H &kp E &kp SPACE>;
+            label = "MACRO_THE_SPACE";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
     };
 
@@ -398,23 +437,22 @@
         layer_repeat: layer_repeat {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_REPEAT";
-            bindings = <&mo>, <&key_repeat>;
+            bindings = <&mo>, <&repeat_maybe>;
 
             #binding-cells = <2>;
             tapping-term-ms = <10>;
             flavor = "tap-preferred";
         };
 
-        shift_repeat: shift_repeat {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SHIFT_REPEAT";
-            bindings = <&kp>, <&key_repeat>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <1>;
-            flavor = "tap-preferred";
+        sticky_shift: sticky_shift {
+            compatible = "zmk,behavior-sticky-key";
+            label = "STICKY_SHIFT";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <0>;
+            quick-release;
+            ignore-modifiers;
         };
-
     };
 
     keymap {
@@ -439,19 +477,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp B  &kp F  &kp L  &kp K                       &kp Q    &kp P      &kp W              &kp O          &kp U      &kp PERIOD
-                &kp N  &kp S  &kp H  &kp T                       &kp M    &kp Y      &kp C              &kp A          &kp E      &kp I
-&sk LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D                       &kp Z    &kp SQT    &kp G              &kp SEMICOLON  &kp SLASH  &kp COMMA   &sk RIGHT_SHIFT
-                              &mo 2  &shift_repeat  &kp R    &kp SPACE  &layer_repeat 3 0  &mo 4
+                &kp B  &kp F  &kp L  &kp K        &kp Q        &kp P    &kp W        &kp O       &kp U      &kp SEMICOLON
+                &kp N  &kp S  &kp H  &kp T        &kp M        &kp Y    &kp C        &kp A       &kp I      &kp E
+&kp LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z        &kp SQT  &kp G        &kp PERIOD  &kp COMMA  &lt 3 SLASH    &sk RIGHT_SHIFT
+                              &mo 2  &key_repeat  &kp SPACE    &kp R    &key_repeat  &mo 4
             >;
         };
 
-        StrawberryTurtle-AnothaOne {
+        fasern {
             bindings = <
-                &none      &kp O  &kp N  &kp A                       &none    &none  &kp A              &kp N  &kp O  &none
-                &kp SPACE  &kp O  &kp H  &kp E                       &none    &none  &kp E              &kp H  &kp O  &kp SPACE
-&kp LEFT_SHIFT  &none      &none  &none  &none                       &none    &none  &none              &none  &none  &mo 3      &kp LEFT_SHIFT
-                                  &mo 2  &shift_repeat LEFT_SHIFT 0  &kp T    &kp T  &layer_repeat 3 0  &mo 4
+                &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp F      &kp W        &kp D  &kp L  &kp B
+                &kp A       &kp I      &kp O          &kp T        &kp K      &kp P      &kp H        &kp S  &kp R  &kp N
+&kp LEFT_SHIFT  &kp PERIOD  &kp SLASH  &kp SEMICOLON  &kp V        &kp X      &kp Z      &kp W        &kp G  &kp J  &kp SQT  &kp RIGHT_SHIFT
+                                       &mo 2          &key_repeat  &lt 3 E    &kp SPACE  &key_repeat  &mo 4
             >;
         };
 
