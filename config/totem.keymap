@@ -559,9 +559,9 @@
         layer_7 {
             label = "mods";
             bindings = <
-       &kp LC(L)        &kp LC(F)     &kp LC(T)       &meowKey          &kp ESC              &kp ESC    &kp LC(Z)  &kp LS(LC(T))  &kp BACKSPACE  &none
+       &kp LC(L)        &kp LC(F)     &kp LC(T)       &kp C_MENU        &kp ESC              &kp ESC    &kp LC(Z)  &kp LS(LC(T))  &kp BACKSPACE  &kp HOME
        &kp LEFT_GUI     &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LC(BACKSPACE)    &kp ENTER  &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT
-&none  &kp LS(LC(TAB))  &kp LC(TAB)   &kp LC(V)       &kp LC(C)         &kp TAB              &kp TAB    &kp LC(Y)  &kp LC(X)      &kp LC(W)      &none      &none
+&none  &kp LS(LC(TAB))  &kp LC(TAB)   &kp LC(V)       &kp LC(C)         &kp TAB              &kp TAB    &kp LC(Y)  &kp LC(X)      &kp LC(W)      &kp END    &none
                                       &trans          &trans            &trans               &none      &none      &trans
             >;
         };
