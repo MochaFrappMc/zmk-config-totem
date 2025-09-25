@@ -195,13 +195,13 @@
         the_combo_base {
             bindings = <&macro_the>;
             key-positions = <22 24 23>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         the_space_combo {
             bindings = <&macro_the_space>;
             key-positions = <22 24 23 21>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         ev_combo {
