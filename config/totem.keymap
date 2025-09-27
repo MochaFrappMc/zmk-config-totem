@@ -50,73 +50,73 @@
         escapeCombo {
             bindings = <&kp ESCAPE>;
             key-positions = <21 20>;
-            layers = <0 2 1>;
+            layers = <0 3 1>;
         };
 
         mouse {
-            bindings = <&tog 9>;
+            bindings = <&tog 10>;
             key-positions = <33 36>;
             layers = <0 1>;
         };
 
         navLayerCombo {
-            bindings = <&mo 4>;
+            bindings = <&mo 5>;
             key-positions = <34 33>;
-            layers = <0 4>;
+            layers = <0 5>;
         };
 
         gui_layer {
-            bindings = <&sl 10>;
+            bindings = <&sl 11>;
             key-positions = <32 37>;
-            layers = <0 2 1>;
+            layers = <0 3 1>;
         };
 
         ou-combo {
             bindings = <&macro_ou>;
             key-positions = <12 2>;
-            layers = <2>;
+            layers = <3>;
         };
 
         ds-combo {
             bindings = <&macro_ds>;
             key-positions = <17 7>;
-            layers = <2>;
+            layers = <3>;
         };
 
         ct_combo {
             bindings = <&macro_ct>;
             key-positions = <13 3>;
-            layers = <2>;
+            layers = <3>;
         };
 
         rl_combo {
             bindings = <&macro_rl>;
             key-positions = <18 8>;
-            layers = <2>;
+            layers = <3>;
         };
 
         gs_combo {
             bindings = <&macro_gs>;
             key-positions = <28 17>;
-            layers = <2>;
+            layers = <3>;
         };
 
         ck_combo {
             bindings = <&macro_ck>;
             key-positions = <4 3>;
-            layers = <2>;
+            layers = <3>;
         };
 
         combo_lr {
             bindings = <&macro_rl>;
             key-positions = <18 8 36>;
-            layers = <2>;
+            layers = <3>;
         };
 
         yi_combo {
             bindings = <&macro_yi>;
             key-positions = <11 1>;
-            layers = <2>;
+            layers = <3>;
         };
 
         e-combo-base {
@@ -128,25 +128,25 @@
         ee_combo {
             bindings = <&macro_ee>;
             key-positions = <33 34>;
-            layers = <2>;
+            layers = <3>;
         };
 
         left_shift_combo {
             bindings = <&sticky_shift LEFT_SHIFT>;
             key-positions = <12 23>;
-            layers = <2>;
+            layers = <3>;
         };
 
         right_shift_combo {
             bindings = <&sticky_shift RIGHT_SHIFT>;
             key-positions = <28 17>;
-            layers = <2>;
+            layers = <3>;
         };
 
         caps_word_combo {
             bindings = <&caps_word>;
             key-positions = <12 23 28 17>;
-            layers = <2>;
+            layers = <3>;
         };
 
         rr_combo_base {
@@ -158,7 +158,7 @@
         ll_space_combo {
             bindings = <&macro_ll_space>;
             key-positions = <8 36 35>;
-            layers = <2>;
+            layers = <3>;
         };
 
         control_backspace_combo {
@@ -169,19 +169,19 @@
         wh_combo {
             bindings = <&macro_wh>;
             key-positions = <16 27>;
-            layers = <2>;
+            layers = <3>;
         };
 
         mp_combo {
             bindings = <&macro_mp>;
             key-positions = <6 5>;
-            layers = <2>;
+            layers = <3>;
         };
 
         ph_combo {
             bindings = <&macro_ph>;
             key-positions = <16 15>;
-            layers = <2>;
+            layers = <3>;
         };
 
         a-combo-base {
@@ -193,25 +193,25 @@
         nquote_combo {
             bindings = <&macro_n_quote>;
             key-positions = <30 19>;
-            layers = <2>;
+            layers = <3>;
         };
 
         the_combo_base {
             bindings = <&macro_the>;
             key-positions = <22 24 23>;
-            layers = <0 2>;
+            layers = <0 3>;
         };
 
         the_space_combo {
             bindings = <&macro_the_space>;
             key-positions = <22 24 23 21>;
-            layers = <0 2>;
+            layers = <0 3>;
         };
 
         ev_combo {
             bindings = <&macro_ev>;
             key-positions = <14 13>;
-            layers = <2>;
+            layers = <3>;
         };
     };
 
@@ -498,18 +498,28 @@
             bindings = <
                 &kp B  &kp F  &kp L  &kp K        &kp Q        &kp P    &kp W        &kp O       &kp U      &kp SEMICOLON
                 &kp N  &kp S  &kp H  &kp T        &kp M        &kp Y    &kp C        &kp A       &kp I      &kp E
-&kp LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z        &kp SQT  &kp G        &kp PERIOD  &kp COMMA  &lt 4 SLASH    &sk RIGHT_SHIFT
-                              &mo 3  &key_repeat  &kp SPACE    &kp R    &key_repeat  &mo 5
+&kp LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z        &kp SQT  &kp G        &kp PERIOD  &kp COMMA  &lt 5 SLASH    &sk RIGHT_SHIFT
+                              &mo 4  &key_repeat  &kp SPACE    &kp R    &key_repeat  &mo 6
             >;
         };
 
-        layer_10 {
+        gaming_layer {
             label = "gaming";
             bindings = <
                 &kp B  &kp F  &kp L  &kp K        &kp Q        &kp P    &kp W        &kp O       &kp U      &kp SEMICOLON
                 &kp N  &kp S  &kp H  &kp T        &kp M        &kp Y    &kp C        &kp A       &kp I      &kp E
-&kp LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z        &kp SQT  &kp G        &kp PERIOD  &kp COMMA  &lt 4 SLASH    &sk RIGHT_SHIFT
-                              &mo 3  &key_repeat  &kp SPACE    &kp R    &key_repeat  &mo 5
+&kp LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z        &kp SQT  &kp G        &kp PERIOD  &kp COMMA  &lt 5 SLASH    &sk RIGHT_SHIFT
+                              &mo 4  &key_repeat  &kp SPACE    &kp R    &key_repeat  &mo 6
+            >;
+        };
+
+        qwerty_layer {
+            label = "qwert";
+            bindings = <
+                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp Y  &kp N7       &kp N8      &kp N9     &kp N0
+                &kp LCTRL     &kp A         &kp W         &kp D         &kp E        &kp H  &kp C        &kp A       &kp I      &kp E
+&kp LEFT_SHIFT  &kp Q         &kp Z         &kp S         &kp C         &kp V        &kp N  &kp G        &kp PERIOD  &kp COMMA  &lt 5 SLASH  &sk RIGHT_SHIFT
+                                            &mo 4         &kp TAB       &kp SPACE    &kp T  &key_repeat  &mo 6
             >;
         };
 
@@ -518,7 +528,7 @@
                 &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp P      &kp M        &kp D  &kp L  &kp B
                 &kp A       &kp I      &kp O          &kp T        &kp K      &kp F      &kp H        &kp S  &kp R  &kp N
 &kp LEFT_SHIFT  &kp PERIOD  &kp SLASH  &kp SEMICOLON  &kp V        &kp X      &kp Z      &kp W        &kp G  &kp J  &kp SQT  &kp RIGHT_SHIFT
-                                       &mo 3          &key_repeat  &lt 4 E    &kp SPACE  &key_repeat  &mo 5
+                                       &mo 4          &key_repeat  &lt 5 E    &kp SPACE  &key_repeat  &mo 6
             >;
         };
 
@@ -541,7 +551,7 @@
             bindings = <
         &kp EXCL   &kp AT           &kp HASH               &kp DLLR           &kp PRCNT     &kp CARET  &kp AMPS      &kp ASTERISK      &kp UNDER          &kp PIPE
         &kp GRAVE  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp COMMA     &kp PLUS   &kp MINUS     &kp LESS_THAN     &kp EQUAL          &kp COLON
-&tog 2  &kp TILDE  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp PERIOD    &none      &kp QUESTION  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp BSLH   &none
+&tog 3  &kp TILDE  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp PERIOD    &none      &kp QUESTION  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp BSLH   &none
                                     &trans                 &trans             &trans        &trans     &trans        &trans
             >;
         };
@@ -565,7 +575,7 @@
             bindings = <
          &kp N1        &kp N2        &kp N3          &kp N4            &kp NUMBER_5    &kp N6   &kp N7            &kp N8           &kp N9         &kp N0
          &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp F11         &kp F12  &sk LEFT_CONTROL  &sk RIGHT_SHIFT  &sk RIGHT_ALT  &sk LEFT_GUI
-&kp ESC  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5          &kp F6   &kp F7            &kp F8           &kp F9         &kp F10       &tog 2
+&kp ESC  &kp F1        &kp F2        &kp F3          &kp F4            &kp F5          &kp F6   &kp F7            &kp F8           &kp F9         &kp F10       &tog 3
                                      &trans          &trans            &trans          &none    &none             &trans
             >;
         };
@@ -622,7 +632,7 @@
 
             bindings = <
        &kp TAB    &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
-       &lt 8 L    &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
+       &lt 9 L    &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
 &kp J  &kp LSHFT  &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
                              &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
             >;
@@ -654,10 +664,10 @@
 
         layer_6 {
             bindings = <
-                &none         &none           &none      &none      &none     &none   &none           &none           &none            &none
-                &msc SCRL_UP  &msc SCRL_DOWN  &mkp RCLK  &mkp LCLK  &none     &none   &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
-&studio_unlock  &none         &none           &none      &none      &none     &none   &none           &mmv MOVE_DOWN  &none            &none  &none
-                                              &tog 9     &tog 9     &tog 9    &tog 9  &tog 9          &tog 9
+                &none         &none           &none      &none      &none      &none    &none           &none           &none            &none
+                &msc SCRL_UP  &msc SCRL_DOWN  &mkp RCLK  &mkp LCLK  &none      &none    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
+&studio_unlock  &none         &none           &none      &none      &none      &none    &none           &mmv MOVE_DOWN  &none            &none  &none
+                                              &tog 10    &tog 10    &tog 10    &tog 10  &tog 10         &tog 10
             >;
         };
 
