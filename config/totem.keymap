@@ -516,10 +516,10 @@
         qwerty_layer {
             label = "qwert";
             bindings = <
-                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp Y  &kp N7       &kp N8      &kp N9     &kp N0
-                &kp LCTRL     &kp A         &kp W         &kp D         &kp E        &kp H  &kp C        &kp A       &kp I      &kp E
-&kp LEFT_SHIFT  &kp Q         &kp Z         &kp S         &kp C         &kp V        &kp N  &kp G        &kp PERIOD  &kp COMMA  &lt 5 SLASH  &sk RIGHT_SHIFT
-                                            &mo 4         &kp TAB       &kp SPACE    &kp T  &key_repeat  &mo 6
+                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp NUMBER_6  &kp N7       &kp N8      &kp N9     &kp N0
+                &kp LCTRL     &kp A         &kp W         &kp D         &kp E        &kp V         &kp C        &kp A       &kp I      &kp E
+&kp LEFT_SHIFT  &kp Q         &kp Z         &kp S         &kp C         &kp X        &kp N         &kp G        &kp PERIOD  &kp COMMA  &lt 5 SLASH  &sk RIGHT_SHIFT
+                                            &mo 4         &kp TAB       &kp SPACE    &kp T         &key_repeat  &mo 6
             >;
         };
 
