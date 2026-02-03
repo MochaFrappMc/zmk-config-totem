@@ -2,16 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ambrosia
-      url-base: https://github.com/ambrosia
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-behavior-magic-keys
-      remote: ambrosia
-      revision: single-instance
-      path: apps/zmk-behavior-magic-keys
   self:
     path: config
