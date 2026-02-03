@@ -509,10 +509,6 @@
             #binding-cells = <1>;
             magic-rules = <
                 A Y
-                P Y
-                C Y
-                T M
-                O DOT
                 U COMMA
             >;
             skip-magic-rules = <
