@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmwareg
+      url-base: https://github.com/zmkfirmware
     - name: ambrosia
       url-base: https://github.com/ambrosia
   projects:
@@ -12,6 +12,6 @@ manifest:
     - name: zmk-behavior-magic-keys
       remote: ambrosia
       revision: single-instance
-      path: whereever-you-want
+      path: apps/zmk-behavior-magic-keys
   self:
     path: config
