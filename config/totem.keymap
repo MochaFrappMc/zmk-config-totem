@@ -482,12 +482,12 @@
         };
     };
 
+    / {
     behaviors {
         layer_repeat: layer_repeat {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_REPEAT";
             bindings = <&mo>, <&repeat_maybe>;
-
             #binding-cells = <2>;
             tapping-term-ms = <10>;
             flavor = "tap-preferred";
@@ -502,7 +502,48 @@
             quick-release;
             ignore-modifiers;
         };
+
+        magic: magic_keys {
+            compatible = "zmk,behavior-magic-keys";
+            label = "MAGIC_KEYS";
+            #binding-cells = <1>;
+            magic-rules = <
+                A O
+                G S
+                H Y
+                U E
+                X T
+                Y H
+            >;
+            skip-magic-rules = <
+                A O
+                B N
+                D T
+                F S
+                G S
+                H Y
+                J Y
+                K T
+                L R
+                M K
+                O A
+                P N
+                Q E
+                R L
+                U E
+                V T
+                X T
+                Y H
+                COMMA I
+                DOT I
+                MINUS I
+                SLASH A
+                SEMI E
+            >;
+        };
     };
+};
+
 
     keymap {
         compatible = "zmk,keymap";
