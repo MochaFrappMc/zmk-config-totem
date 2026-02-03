@@ -482,7 +482,7 @@
         };
     };
 
-     {
+
     behaviors {
         layer_repeat: layer_repeat {
             compatible = "zmk,behavior-hold-tap";
