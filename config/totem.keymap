@@ -493,34 +493,6 @@
             flavor = "tap-preferred";
         };
 
-magic: magic_keys {
-            compatible = "zmk,behavior-magic-keys";
-            #binding-cells = <1>;
-            magic-rules = <
-                A Y
-                U I
-                C Y
-                P Y
-            >;
-            skip-magic-rules = <
-                A O
-                B N
-                D T
-                F S
-                K T
-                L R
-                M K
-                O A
-                P N
-                Q E
-                R L
-                COMMA I
-                DOT I
-                MINUS I
-                SLASH A
-                SEMI E
-            >;
-
         sticky_shift: sticky_shift {
             compatible = "zmk,behavior-sticky-key";
             label = "STICKY_SHIFT";
@@ -557,7 +529,7 @@ magic: magic_keys {
                 &kp B  &kp F  &kp L  &kp K        &kp Q        &kp P    &kp W        &kp O       &kp U      &kp SEMICOLON
                 &kp N  &kp S  &kp H  &kp T        &kp M        &kp Y    &kp C        &kp A       &kp I      &kp E
 &kp LEFT_SHIFT  &kp X  &kp V  &kp J  &kp D        &kp Z        &kp SQT  &kp G        &kp PERIOD  &kp COMMA  &lt 5 SLASH    &sk RIGHT_SHIFT
-                              &mo 4  &magic 0  &kp SPACE    &kp R    &magic 0  &mo 6
+                              &mo 4  &key_repeat  &kp SPACE    &kp R    &key_repeat  &mo 6
             >;
         };
 
