@@ -508,32 +508,24 @@
             label = "MAGIC_KEYS";
             #binding-cells = <1>;
             magic-rules = <
-                A O
-                G S
-                H Y
-                U E
-                X T
-                Y H
+                A Y
+                P Y
+                C Y
+                T M
+                O DOT
+                U COMMA
             >;
             skip-magic-rules = <
                 A O
                 B N
                 D T
                 F S
-                G S
-                H Y
-                J Y
                 K T
                 L R
                 M K
                 O A
-                P N
-                Q E
                 R L
-                U E
-                V T
-                X T
-                Y H
+                U I
                 COMMA I
                 DOT I
                 MINUS I
