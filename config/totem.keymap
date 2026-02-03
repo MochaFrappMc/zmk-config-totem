@@ -598,7 +598,7 @@
                 &kp COMMA   &kp Y      &kp U          &kp C        &kp Q      &kp W      &kp P        &kp D  &kp L  &kp B
                 &kp A       &kp I      &kp O          &kp T        &kp K      &kp F      &kp H        &kp S  &kp R  &kp N
 &kp LEFT_SHIFT  &kp PERIOD  &kp SLASH  &kp SEMICOLON  &kp V        &kp Z      &kp X      &kp M        &kp G  &kp J  &kp SQT  &kp RIGHT_SHIFT
-                                       &mo 4          &key_repeat  &lt 5 E    &kp SPACE  &key_repeat  &mo 6
+                                       &mo 4          &magic 0  &lt 5 E    &kp SPACE  &magic 0  &mo 6
             >;
         };
 
