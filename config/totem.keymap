@@ -234,6 +234,66 @@
             key-positions = <3 12 13>;
             layers = <0>;
         };
+
+        rl_combo_then {
+            bindings = <&macro_rl>;
+            key-positions = <11 1>;
+            layers = <4>;
+        };
+
+        ds_combo_then {
+            bindings = <&macro_ds>;
+            key-positions = <12 2>;
+            layers = <4>;
+        };
+
+        gs_combo_then {
+            bindings = <&macro_gs>;
+            key-positions = <12 23>;
+            layers = <4>;
+        };
+
+        my_combo_then {
+            bindings = <&macro_my>;
+            key-positions = <13 14>;
+            layers = <4>;
+        };
+
+        he_combo_then {
+            bindings = <&macro_he>;
+            key-positions = <16 6>;
+            layers = <4>;
+        };
+
+        ze_combo_then {
+            bindings = <&macro_he>;
+            key-positions = <16 15>;
+            layers = <4>;
+        };
+
+        je_combo_then {
+            bindings = <&je_macro>;
+            key-positions = <27 16>;
+            layers = <4>;
+        };
+
+        ck_combo_then {
+            bindings = <&macro_ck>;
+            key-positions = <28 17>;
+            layers = <4>;
+        };
+
+        oa_combo_then {
+            bindings = <&oa_combo>;
+            key-positions = <35 36>;
+            layers = <4>;
+        };
+
+        ui_combo_base {
+            bindings = <&ui_combo>;
+            key-positions = <34 33>;
+            layers = <4>;
+        };
     };
 
     macros {
@@ -477,6 +537,69 @@
             #binding-cells = <0>;
             bindings = <&kp A &kp Y>;
             label = "MACRO_AY";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_my: macro_my {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp Y>;
+            label = "MACRO_MY";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        macro_he: macro_he {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp E>;
+            label = "MACRO_HE";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        ze_combo: ze_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp E>;
+            label = "ZE_COMBO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        eq_combo: eq_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp Q>;
+            label = "EQ_COMBO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        je_macro: je_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp J &kp E>;
+            label = "JE_MACRO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        oa_combo: oa_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp A>;
+            label = "OA_COMBO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
+
+        ui_combo: ui_combo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp I>;
+            label = "UI_COMBO";
             wait-ms = <0>;
             tap-ms = <0>;
         };
