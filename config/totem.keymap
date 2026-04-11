@@ -122,6 +122,12 @@
             layers = <3>;
         };
 
+        e-combo-base {
+            bindings = <&kp E>;
+            key-positions = <21 10>;
+            layers = <0>;
+        };
+
         ee_combo {
             bindings = <&macro_ee>;
             key-positions = <33 34>;
@@ -144,6 +150,12 @@
             bindings = <&caps_word>;
             key-positions = <12 23 28 17>;
             layers = <3>;
+        };
+
+        rr_combo_base {
+            bindings = <&macro_rr>;
+            key-positions = <35 36>;
+            layers = <0>;
         };
 
         ll_space_combo {
@@ -175,10 +187,28 @@
             layers = <3>;
         };
 
+        a-combo-base {
+            bindings = <&kp A>;
+            key-positions = <3 4>;
+            layers = <1>;
+        };
+
         nquote_combo {
             bindings = <&macro_n_quote>;
             key-positions = <30 19>;
             layers = <3>;
+        };
+
+        the_combo {
+            bindings = <&macro_the>;
+            key-positions = <22 24 23>;
+            layers = <0 3>;
+        };
+
+        the_space_combo {
+            bindings = <&macro_the_space>;
+            key-positions = <22 24 23 21>;
+            layers = <0 3>;
         };
 
         ev_combo {
@@ -187,6 +217,23 @@
             layers = <3>;
         };
 
+        the_space_combo_base {
+            bindings = <&macro_the_space>;
+            key-positions = <3 12 13 2>;
+            layers = <0>;
+        };
+
+        ay_combo_base {
+            bindings = <&macro_ay>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        the_combo_base {
+            bindings = <&macro_the>;
+            key-positions = <3 12 13>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -462,6 +509,7 @@
             #binding-cells = <1>;
             magic-rules = <
                 A Y
+                U COMMA
             >;
             skip-magic-rules = <
                 A O
