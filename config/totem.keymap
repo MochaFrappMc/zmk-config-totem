@@ -1379,7 +1379,7 @@
 
         layer_6 {
             bindings = <
-                &tog 10  &kp F  &kp L  &kp K      &kp Q        &kp P    &kp W      &kp O       &kp U      &tog 0
+                &kp B  &kp F  &kp L  &kp K      &kp Q        &kp P    &kp W      &kp O       &kp U      &kpo SEMICOLON
                 &kp N  &kp S  &kp H  &kp T      &kp M        &kp Y    &kp C      &kp A       &kp I      &kp E
 &kp LEFT_BRACKET  &kp X  &kp V  &kp J  &kp D      &kp Z        &kp SQT  &kp G      &kp PERIOD  &kp COMMA  &kp SLASH      &kp RIGHT_BRACKET
                               &mo 4  &lt 5 TAB  &kp SPACE    &kp R    &kp ENTER  &mo 6
