@@ -47,7 +47,7 @@
         homeMod {
             bindings = <&sk LS(LA(LC(LEFT_GUI)))>;
             key-positions = <32 33>;
-            layers = <0 1>;
+            layers = <0 1 10>;
         };
 
         escapeCombo {
@@ -673,11 +673,11 @@
         };
 
         layer_6 {
-            bindings = <
-                &none         &none           &none      &none      &none      &none    &none           &none           &none            &none
-                &msc SCRL_UP  &msc SCRL_DOWN  &mkp RCLK  &mkp LCLK  &none      &none    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
-&studio_unlock  &none         &none           &none      &none      &none      &none    &none           &mmv MOVE_DOWN  &none            &none  &none
-                                              &tog 10    &tog 10    &tog 10    &tog 10  &tog 10         &tog 10
+     bindings = <
+                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp E    &kp N5          &kp NUMBER_6  &kp N7       &kp N8      &kp N9     &kp N0
+                &kp LCTRL     &kp A         &kp W         &kp D    &kp NUMBER_4    &kp V         &kp C        &kp A       &kp I      &kp E
+&kp LEFT_SHIFT  &kp Q         &kp Z         &kp S         &kp C    &kp X           &kp N         &kp G        &kp PERIOD  &kp COMMA  &kp SLASH  &sk RIGHT_SHIFT
+                                            &mo 4         &kp TAB  &kp SPACE       &kp T         &enter  &mo 6
             >;
         };
 
