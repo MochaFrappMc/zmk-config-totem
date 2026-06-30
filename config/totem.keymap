@@ -918,15 +918,6 @@
         };
     };
 
-    macros {
-        meowKey: meowKey {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp M &kp E &kp O &kp W>;
-            label = "MEOWKEY";
-        };
-    };
-
 
     behaviors {
         layer_repeat: layer_repeat {
