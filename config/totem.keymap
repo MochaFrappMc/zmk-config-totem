@@ -57,7 +57,7 @@ t//                                                        ▀▀▀▀▀     �
         mouse {
             bindings = <&tog 10>;
             key-positions = <33 36>;
-            layers = <0 1>;
+            layers = <0 1 10>;
         };
 
         navLayerCombo {
